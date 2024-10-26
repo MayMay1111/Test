@@ -1,0 +1,414 @@
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\QLCHDT.exe.config
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\QLCHDT.exe
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\QLCHDT.pdb
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\BouncyCastle.Cryptography.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CryptSharp.SCryptSubset.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CrystalDecisions.Shared.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CrystalDecisions.Web.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\EntityFramework.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\EntityFramework.SqlServer.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Enums.NET.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\EPPlus.Interfaces.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\EPPlus.System.Drawing.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ExtendedNumerics.BigDecimal.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\log4net.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\MathNet.Numerics.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.Core.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.OOXML.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.OpenXml4Net.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Scrypt.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\SixLabors.Fonts.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\SixLabors.ImageSharp.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\SunnyUI.Common.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\SunnyUI.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Buffers.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.ComponentModel.Annotations.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Memory.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Numerics.Vectors.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Security.AccessControl.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Security.Cryptography.Pkcs.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Security.Principal.Windows.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Text.Encoding.CodePages.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.ValueTuple.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Xceed.Document.NET.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Xceed.Words.NET.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.Shell.15.0.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.Interop.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.Shell.Framework.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\VsWebSite.Interop.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\EnvDTE.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.Telemetry.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.RpcContracts.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Collections.Immutable.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\stdole.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.Utilities.Internal.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Newtonsoft.Json.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.RemoteControl.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.IO.Pipelines.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\BouncyCastle.Cryptography.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CryptSharp.SCryptSubset.pdb
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\CryptSharp.SCryptSubset.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\EntityFramework.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\EntityFramework.SqlServer.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Enums.NET.pdb
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Enums.NET.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ExtendedNumerics.BigDecimal.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\log4net.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\MathNet.Numerics.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.Core.pdb
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.Core.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.OOXML.pdb
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.OOXML.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.OpenXml4Net.pdb
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.OpenXml4Net.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.OpenXmlFormats.pdb
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\NPOI.OpenXmlFormats.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\SixLabors.Fonts.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\SixLabors.ImageSharp.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Buffers.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Memory.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Numerics.Vectors.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Security.AccessControl.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Security.Cryptography.Pkcs.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Security.Principal.Windows.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Text.Encoding.CodePages.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\System.ValueTuple.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\Microsoft.VisualStudio.GraphModel.xml
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.csproj.AssemblyReference.cache
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.csproj.SuggestedBindingRedirects.cache
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.exe.config
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.DangNhap.frmDangNhap.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.DangNhap.frmDangNhapPage.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.KhachHang.frmKhachHangMoi.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmInPhieuGiao.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmInPhieuTon.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.frmMain.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmXuatHoaDon.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmBanHang.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmBaoCaoDoanhThu.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmGiaoHang.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmNhanVien.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmTonKho.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmTraHang.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmYeuCauBaoHanh.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmDanhMuc.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmNhap.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmNhapHang.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmSanPham.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.Properties.Resources.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.csproj.GenerateResource.cache
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.csproj.CoreCompileInputs.cache
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.csproj.CopyComplete
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.exe
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.pdb
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmInDonBaoHanh.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmInThongKeKhuyenMai.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmThongKeKhuyenMai.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmKhuyenMai.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmThongTinKhachHang.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmThongTinNhanVien.resources
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\DoAnChuyenNganh_QuanLyMuaBanTaiCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.exe
+D:\.OneDrive - Ho Chi Minh city University of Food Industry\Desktop\DOANCHUYENNGANH\gop3\DoAnChuyenNganh_QuanLyMuaBanTaiCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\QLCHDT.exe.config
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.exe
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.csprojResolveAssemblyReference.cache
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.csproj.QLCHDT.exe.config
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.DangNhap.frmDangNhap.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.DangNhap.frmDangNhapPage.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.KhachHang.frmKhachHangMoi.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmInDonBaoHanh.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmInPhieuGiao.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmInPhieuTon.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmInThongKeKhuyenMai.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.frmMain.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmThongKeKhuyenMai.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.frmXuatHoaDon.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmBanHang.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmBaoCaoDoanhThu.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmGiaoHang.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmKhuyenMai.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmNhanVien.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmThongTinKhachHang.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmThongTinNhanVien.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmTonKho.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmTraHang.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmYeuCauBaoHanh.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmDanhMuc.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmNhap.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Pages.frmNhapHang.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.GUI.Main.Pages.frmSanPham.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.Properties.Resources.resources
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\obj\Debug\QLCHDT.csproj.GenerateResource.Cache
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\QLCHDT.exe
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\QLCHDT.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\CryptSharp.SCryptSubset.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\EntityFramework.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Enums.NET.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ExtendedNumerics.BigDecimal.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\log4net.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\MathNet.Numerics.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.Core.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.OOXML.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Scrypt.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\SixLabors.Fonts.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\SixLabors.ImageSharp.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\SunnyUI.Common.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\SunnyUI.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Memory.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Security.AccessControl.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Security.Cryptography.Pkcs.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.ValueTuple.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Xceed.Document.NET.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Xceed.Words.NET.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.Shell.15.0.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.Interop.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.Shell.Framework.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.Telemetry.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.RpcContracts.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Collections.Immutable.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.Utilities.Internal.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.RemoteControl.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.IO.Pipelines.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\CryptSharp.SCryptSubset.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\CryptSharp.SCryptSubset.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\EntityFramework.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Enums.NET.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Enums.NET.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ExtendedNumerics.BigDecimal.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\log4net.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\MathNet.Numerics.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.Core.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.Core.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.OOXML.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.OOXML.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.OpenXml4Net.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.OpenXmlFormats.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\NPOI.OpenXmlFormats.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\SixLabors.Fonts.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\SixLabors.ImageSharp.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Memory.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Security.AccessControl.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\System.ValueTuple.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\Microsoft.VisualStudio.GraphModel.xml
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\cs\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\da\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\de\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\en\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\es\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fi\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fr\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\hu\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\it\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ja\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ko\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\nb-NO\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\nl\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pl\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pt\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ru\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\sk\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\sv\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\th\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\tr\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHS\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHT\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\cs\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\da\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\de\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\en\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\es\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fi\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fr\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\hu\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\it\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ja\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ko\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\nb-NO\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\nl\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pl\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pt\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ru\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\sk\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\sv\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\th\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\tr\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHS\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHT\CrystalDecisions.ReportSource.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\cs\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\da\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\de\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\en\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\es\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fi\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fr\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\hu\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\it\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ja\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ko\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\nb-NO\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\nl\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pl\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pt\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ru\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\sk\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\sv\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\th\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\tr\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHS\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHT\CrystalDecisions.Shared.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangDienTu\QuanLyCuaHangDienTu\SourceCode\QLCHDT\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
