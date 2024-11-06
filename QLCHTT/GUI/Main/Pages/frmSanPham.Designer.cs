@@ -50,12 +50,10 @@
             this.uiLabel3 = new Sunny.UI.UILabel();
             this.uiLabel4 = new Sunny.UI.UILabel();
             this.uiLabel5 = new Sunny.UI.UILabel();
-            this.uiLabel6 = new Sunny.UI.UILabel();
             this.uiLabel7 = new Sunny.UI.UILabel();
             this.uiLabel8 = new Sunny.UI.UILabel();
             this.uiLabel9 = new Sunny.UI.UILabel();
             this.txtSanPham = new Sunny.UI.UITextBox();
-            this.txtMaVach = new Sunny.UI.UITextBox();
             this.txtGiaBan = new Sunny.UI.UITextBox();
             this.txtXuatXu = new Sunny.UI.UITextBox();
             this.rtxtMoTa = new Sunny.UI.UIRichTextBox();
@@ -359,12 +357,10 @@
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel3, 0, 2);
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel4, 0, 3);
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel5, 0, 4);
-            this.uiTableLayoutPanel2.Controls.Add(this.uiLabel6, 2, 0);
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel7, 2, 1);
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel8, 2, 2);
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel9, 2, 3);
             this.uiTableLayoutPanel2.Controls.Add(this.txtSanPham, 1, 0);
-            this.uiTableLayoutPanel2.Controls.Add(this.txtMaVach, 3, 0);
             this.uiTableLayoutPanel2.Controls.Add(this.txtGiaBan, 3, 2);
             this.uiTableLayoutPanel2.Controls.Add(this.txtXuatXu, 3, 3);
             this.uiTableLayoutPanel2.Controls.Add(this.rtxtMoTa, 1, 4);
@@ -441,17 +437,6 @@
             this.uiLabel5.TabIndex = 4;
             this.uiLabel5.Text = "Mô tả:";
             // 
-            // uiLabel6
-            // 
-            this.uiLabel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiLabel6.Font = new System.Drawing.Font("Arial", 12F);
-            this.uiLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel6.Location = new System.Drawing.Point(609, 5);
-            this.uiLabel6.Name = "uiLabel6";
-            this.uiLabel6.Size = new System.Drawing.Size(154, 46);
-            this.uiLabel6.TabIndex = 5;
-            this.uiLabel6.Text = "Mã vạch:";
-            // 
             // uiLabel7
             // 
             this.uiLabel7.Dock = System.Windows.Forms.DockStyle.Top;
@@ -501,23 +486,6 @@
             this.txtSanPham.TabIndex = 9;
             this.txtSanPham.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.txtSanPham.Watermark = "";
-            // 
-            // txtMaVach
-            // 
-            this.txtMaVach.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtMaVach.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtMaVach.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtMaVach.Location = new System.Drawing.Point(770, 10);
-            this.txtMaVach.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtMaVach.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtMaVach.Name = "txtMaVach";
-            this.txtMaVach.Padding = new System.Windows.Forms.Padding(5);
-            this.txtMaVach.RectColor = System.Drawing.Color.Black;
-            this.txtMaVach.ShowText = false;
-            this.txtMaVach.Size = new System.Drawing.Size(443, 36);
-            this.txtMaVach.TabIndex = 10;
-            this.txtMaVach.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtMaVach.Watermark = "";
             // 
             // txtGiaBan
             // 
@@ -636,7 +604,7 @@
             this.dtpNgaySanXuat.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpNgaySanXuat.Location = new System.Drawing.Point(206, 146);
             this.dtpNgaySanXuat.Name = "dtpNgaySanXuat";
-            this.dtpNgaySanXuat.Size = new System.Drawing.Size(397, 35);
+            this.dtpNgaySanXuat.Size = new System.Drawing.Size(397, 30);
             this.dtpNgaySanXuat.TabIndex = 18;
             // 
             // frmSanPham
@@ -673,12 +641,10 @@
         private Sunny.UI.UILabel uiLabel3;
         private Sunny.UI.UILabel uiLabel4;
         private Sunny.UI.UILabel uiLabel5;
-        private Sunny.UI.UILabel uiLabel6;
         private Sunny.UI.UILabel uiLabel7;
         private Sunny.UI.UILabel uiLabel8;
         private Sunny.UI.UILabel uiLabel9;
         private Sunny.UI.UITextBox txtSanPham;
-        private Sunny.UI.UITextBox txtMaVach;
         private Sunny.UI.UITextBox txtGiaBan;
         private Sunny.UI.UITextBox txtXuatXu;
         private Sunny.UI.UIRichTextBox rtxtMoTa;

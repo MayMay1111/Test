@@ -113,6 +113,8 @@ namespace QLCHTT.GUI.Main.Pages
                     MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
+                DateTime ngaySinh;
+                decimal mucLuong;
                 string stdHienTai = txtSoDienThoai.Text;
                 if (nhanVienDAO.trungSoDienThoai(txtSoDienThoai.Text) && !txtSoDienThoai.Text.Equals(stdHienTai))
                 {
@@ -120,7 +122,18 @@ namespace QLCHTT.GUI.Main.Pages
                     loadData();
                     return;
                 }
-                if (nhanVienDAO.update1NhanVien(frmMain.maNhanVienDangNhap, txtTenNV.Text, txtGioiTinh.Text, txtNgaySinh.Text, txtSoDienThoai.Text, txtEmail.Text, txtChucVu.Text, txtMucLuong.Text, hinhAnh))
+                if (!DateTime.TryParse(txtNgaySinh.Text, out ngaySinh))
+                {
+                    MessageBox.Show("Ngày sinh không hợp lệ. Vui lòng nhập lại.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (!decimal.TryParse(txtMucLuong.Text, out mucLuong))
+                {
+                    MessageBox.Show("Mức lương phải là số thập phân. Vui lòng nhập lại.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (nhanVienDAO.update1NhanVien(frmMain.maNhanVienDangNhap, txtTenNV.Text, txtGioiTinh.Text, ngaySinh, txtSoDienThoai.Text, txtChucVu.Text, mucLuong, hinhAnh))
                 {
                     MessageBox.Show("Sửa nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

@@ -59,8 +59,9 @@ namespace QLCHTT.DAO
             return ToDataTable(query.ToList());
         }
 
-        public bool suaGiaoHang(string nhanVienGiao, DateTime? ngayGiao, string tinhTrang, string magh)
+        public bool suaGiaoHang(string nhanVienGiao, string tinhTrang, string magh, DateTime ngayGiao)
         {
+            DateTime ngayGiaoDate = new DateTime(ngayGiao.Year, ngayGiao.Month, ngayGiao.Day);
             var giaoHang = QLCHTT.GiaoHangs.SingleOrDefault(p => p.MaGiaoHang == magh);
             if (giaoHang != null)
             {
@@ -75,8 +76,23 @@ namespace QLCHTT.DAO
 
         public bool addGiaoHang(string maHoaDon, DateTime? ngayGiao, string diaChi)
         {
+            var maxGiaoHang = QLCHTT.GiaoHangs
+            .OrderByDescending(gh => gh.MaGiaoHang)
+            .FirstOrDefault();
+
+            string newMaGiaoHang;
+            if (maxGiaoHang != null)
+            {
+                int lastNumber = int.Parse(maxGiaoHang.MaGiaoHang.Substring(2));
+                newMaGiaoHang = "GH" + (lastNumber + 1).ToString("D8");
+            }
+            else
+            {
+                newMaGiaoHang = "GH00000001";
+            }
             GiaoHang newGiaoHang = new GiaoHang
             {
+                MaGiaoHang = newMaGiaoHang,
                 MaHoaDon = maHoaDon,
                 NgayGiao = ngayGiao,
                 DiaChi = diaChi

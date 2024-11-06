@@ -16,40 +16,65 @@ namespace QLCHTT.DAO
         {
             QLCHTT = new QLCHTTDataContext();
         }
-        public DataTable GetAll()
+        public DataTable getAll()
         {
             var results = from ddh in QLCHTT.DonDatHangNhaCungCaps
-                          select ddh;
+                          select new
+                          {
+                              ddh.MaDonDatHang,
+                              ddh.MaNhaCungCap,
+                              ddh.NgayDatHang,
+                              ddh.TongTien,
+                              ddh.TrangThai
+                          };
 
             return ToDataTableUtils.ToDataTable(results.ToList());
         }
 
-        public bool AddDonNhapHang(int maNhaCungCap, DateTime ngayDatHang)
+        public bool addDonNhapHang(int maNhaCungCap, DateTime ngayDatHang)
         {
+            var maxDonNhapHang = QLCHTT.DonDatHangNhaCungCaps
+            .OrderByDescending(ddh => ddh.MaDonDatHang)
+            .FirstOrDefault();
+
+            string newMaDonNhapHang;
+            if (maxDonNhapHang != null)
+            {
+                int lastNumber = int.Parse(maxDonNhapHang.MaDonDatHang.Substring(4));
+                newMaDonNhapHang = "DNCC" + (lastNumber + 1).ToString("D6");
+            }
+            else
+            {
+                newMaDonNhapHang = "DNCC000001";
+            }
+
+            DateTime ngayDatHangDate = new DateTime(ngayDatHang.Year, ngayDatHang.Month, ngayDatHang.Day);
+
             var donHang = new DonDatHangNhaCungCap
             {
+                MaDonDatHang = newMaDonNhapHang,
                 MaNhaCungCap = maNhaCungCap,
-                NgayDatHang = ngayDatHang
+                NgayDatHang = ngayDatHangDate
             };
             QLCHTT.DonDatHangNhaCungCaps.InsertOnSubmit(donHang);
             QLCHTT.SubmitChanges();
             return true;
         }
 
-        public string LayDonMoi()
-{
-    var result = QLCHTT.DonDatHangNhaCungCaps
-        .OrderByDescending(d => Convert.ToInt32(d.MaDonDatHang.Substring(2)))
-        .FirstOrDefault();
+        public string layDonMoi()
+        {
+            var result = QLCHTT.DonDatHangNhaCungCaps
+                .OrderByDescending(d => Convert.ToInt32(d.MaDonDatHang.Substring(2)))
+                .FirstOrDefault();
 
-    if (result!= null && result.MaDonDatHang != null)
-    {
-        return result.MaDonDatHang;
-    }
-    return null;
-}
+            if (result!= null && result.MaDonDatHang != null)
+            {
+                return result.MaDonDatHang;
+            }
+            return null;
+        }
 
-        public DataTable SearchDonNhapHang(string key)
+        public DataTable searchDonNhapHang(string key)
         {
             var results = from ddh in QLCHTT.DonDatHangNhaCungCaps
                           join ctdh in QLCHTT.ChiTietDonDatHangNhaCungCaps on ddh.MaDonDatHang equals ctdh.MaDonDatHang into joined
@@ -71,7 +96,7 @@ namespace QLCHTT.DAO
             return ToDataTableUtils.ToDataTable(results.Distinct().ToList());
         }
 
-        public bool DeleteDonNhapHang(string maDonDatHang)
+        public bool deleteDonNhapHang(string maDonDatHang)
         {
             var donHang = QLCHTT.DonDatHangNhaCungCaps.FirstOrDefault(d => d.MaDonDatHang == maDonDatHang);
             if (donHang != null)
@@ -83,11 +108,23 @@ namespace QLCHTT.DAO
             return false;
         }
 
-        public bool UpdateDonNhapHang(string maDonDatHang, string trangThai)
+        public bool updateDonNhapHang(string maDonDatHang, string trangThai)
         {
             var donHang = QLCHTT.DonDatHangNhaCungCaps.FirstOrDefault(d => d.MaDonDatHang == maDonDatHang);
             if (donHang != null)
             {
+                if (donHang.TrangThai == "Đã nhập hàng vào kho")
+                {
+                    return false;
+                }
+                if (trangThai == "Đã đặt hàng")
+                {
+                    var tongTien = QLCHTT.ChiTietDonDatHangNhaCungCaps
+                    .Where(ct => ct.MaDonDatHang == maDonDatHang)
+                    .Sum(ct => ct.ThanhTien);
+
+                    donHang.TongTien = tongTien;
+                }
                 donHang.TrangThai = trangThai;
                 QLCHTT.SubmitChanges();
                 return true;

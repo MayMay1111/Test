@@ -6,7 +6,6 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Media.Animation;
 
 namespace QLCHTT.BUS
 {
@@ -23,7 +22,7 @@ namespace QLCHTT.BUS
         }
         public DataTable GetKhuyenMaiHopLe(int tongTien, DateTime ngayHienTai)
         {
-            return khuyenMaiDAO.GetKhuyenMaiHopLe(tongTien, ngayHienTai);
+            return khuyenMaiDAO.getKhuyenMaiHopLe(tongTien, ngayHienTai);
         }
 
         public float giaTriKhuyenMai(string maKhuyenMai)
@@ -50,7 +49,6 @@ namespace QLCHTT.BUS
         }
         public bool updatekhuyenMai(string maKhuyenMai, string tenChuongTrinh, float giaTriKhuyenMai, string moTa, DateTime ngayBatDau, DateTime ngayKetThuc, string dieuKien, int giaTriToiThieu)
         {
-            return true;
             return khuyenMaiDAO.updateKhuyenMai(maKhuyenMai, tenChuongTrinh, giaTriKhuyenMai, moTa, ngayBatDau, ngayKetThuc, dieuKien, giaTriToiThieu);
         }
         public DataTable searchKhuyenMai(string key)

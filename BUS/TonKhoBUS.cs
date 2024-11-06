@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace QLCHTT.BUS
 {
-    internal class TonKhoBUS
+    public class TonKhoBUS
     {
         TonKhoDAO tonKhoDAO;
         public TonKhoBUS()

@@ -41,8 +41,6 @@ namespace QLCHTT.GUI.Main.Pages
                     dgvtonkho.Columns[1].HeaderText = "Tên sản phẩm";
                     dgvtonkho.Columns[2].HeaderText = "Số lượng nhập";
                     dgvtonkho.Columns[3].HeaderText = "Số lượng xuất";
-                    dgvtonkho.Columns[4].HeaderText = "Số lượng trả";
-
                 }
                 dgvtonkho.ClearSelection();
             }
@@ -62,11 +60,8 @@ namespace QLCHTT.GUI.Main.Pages
                 txtsoluongxuat.Text = selectedRow.Cells["SoLuongXuat"].Value.ToString();
                 int soluongnhap = int.Parse(selectedRow.Cells["SoLuongNhap"].Value.ToString());
                 int soluongxuat = int.Parse(selectedRow.Cells["SoLuongXuat"].Value.ToString());
-                int soluongtra = int.Parse(selectedRow.Cells["SoLuongTraHang"].Value.ToString());
-                int soluongcon = soluongnhap - soluongxuat + soluongtra;
+                int soluongcon = soluongnhap - soluongxuat;
                 txtsoluongcon.Text = soluongcon.ToString();
-
-
             }
         }
 

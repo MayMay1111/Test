@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace QLCHTT.BUS
 {
-    internal class NhanVienBUS
+    public class NhanVienBUS
     {
         public NhanVienDAO nhanVienDAO;
         public NhanVienBUS()
@@ -19,13 +19,13 @@ namespace QLCHTT.BUS
         {
             return nhanVienDAO.getDataTable();
         }
-        public bool addNhanVien(string ten, string gioitinh, string ngaySinh, string sdt, string email, string chucVu, string mucLuong, string taikhoan, string matKhau, byte[] hinhAnh)
+        public bool addNhanVien(string ten, string gioitinh, DateTime ngaySinh, string sdt, string chucVu, decimal mucLuong, string taikhoan, string matKhau, byte[] hinhAnh)
         {
-            return nhanVienDAO.addNhanVien(ten, gioitinh, ngaySinh, sdt, email, chucVu, mucLuong, taikhoan, matKhau, hinhAnh);
+            return nhanVienDAO.addNhanVien(ten, gioitinh, ngaySinh, sdt, chucVu, mucLuong, taikhoan, matKhau, hinhAnh);
         }
-        public bool updateNhanVien(string ma, string ten, string gioitinh, string ngaySinh, string sdt, string email, string chucVu, string mucLuong, string taikhoan, string matKhau, byte[] hinhAnh)
+        public bool updateNhanVien(string ma, string ten, string gioitinh, DateTime ngaySinh, string sdt, string chucVu, decimal mucLuong, string taikhoan, string matKhau, byte[] hinhAnh)
         {
-            return nhanVienDAO.updateNhanVien(ma, ten, gioitinh, ngaySinh, sdt, email, chucVu, mucLuong, taikhoan, matKhau, hinhAnh);
+            return nhanVienDAO.updateNhanVien(ma, ten, gioitinh, ngaySinh, sdt, chucVu, mucLuong, taikhoan, matKhau, hinhAnh);
         }
         public DataTable lay1NhanVien(string ma)
         {

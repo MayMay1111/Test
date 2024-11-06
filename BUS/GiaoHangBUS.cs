@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace QLCHTT.BUS
 {
-    internal class GiaoHangBUS
+    public class GiaoHangBUS
     {
         GiaoHangDAO giaoHangDAO;
         public GiaoHangBUS()
@@ -18,6 +18,10 @@ namespace QLCHTT.BUS
         public DataTable getAll()
         {
             return giaoHangDAO.getAll();
+        }
+        public bool suaGiaoHang(string nhanVienGiao, DateTime ngayGiao, string tinhTrang, string magh)
+        {
+            return giaoHangDAO.suaGiaoHang(nhanVienGiao, tinhTrang, magh, ngayGiao);
         }
         public DataTable timGiaoHang(string key)
         {

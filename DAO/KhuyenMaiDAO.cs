@@ -16,14 +16,14 @@ namespace QLCHTT.DAO
         {
             QLCHTT = new QLCHTTDataContext();
         }
-        public DataTable GetAll()
+        public DataTable getAll()
         {
             var result = from km in QLCHTT.KhuyenMais
                          select km;
             return ToDataTableUtils.ToDataTable(result.ToList());
         }
 
-        public DataTable GetKhuyenMaiHopLe(int tongTien, DateTime ngayHienTai)
+        public DataTable getKhuyenMaiHopLe(int tongTien, DateTime ngayHienTai)
         {
             var result = from km in QLCHTT.KhuyenMais
                          where (ngayHienTai >= km.NgayBatDau && ngayHienTai <= km.NgayKetThuc &&
@@ -32,7 +32,7 @@ namespace QLCHTT.DAO
             return ToDataTableUtils.ToDataTable(result.ToList());
         }
 
-        public float GiaTriKhuyenMai(string maKhuyenMai)
+        public float giaTriKhuyenMai(string maKhuyenMai)
         {
             var result = QLCHTT.KhuyenMais
                 .Where(km => km.MaKhuyenMai == maKhuyenMai)
@@ -45,7 +45,7 @@ namespace QLCHTT.DAO
             return 0;
         }
 
-        public string MoTaKhuyenMai(string maKhuyenMai)
+        public string moTaKhuyenMai(string maKhuyenMai)
         {
             return QLCHTT.KhuyenMais
                 .Where(km => km.MaKhuyenMai == maKhuyenMai)
@@ -53,13 +53,13 @@ namespace QLCHTT.DAO
                 .FirstOrDefault();
         }
 
-        public bool CheckTrungMa(string maKhuyenMai)
+        public bool checkTrungMa(string maKhuyenMai)
         {
             return QLCHTT.KhuyenMais
                 .Any(km => km.MaKhuyenMai == maKhuyenMai);
         }
 
-        public bool AddKhuyenMai(string maKhuyenMai, string tenChuongTrinh, float giaTriKhuyenMai, string moTa, DateTime ngayBatDau, DateTime ngayKetThuc, string dieuKien, int giaTriToiThieu)
+        public bool addKhuyenMai(string maKhuyenMai, string tenChuongTrinh, float giaTriKhuyenMai, string moTa, DateTime ngayBatDau, DateTime ngayKetThuc, string dieuKien, int giaTriToiThieu)
         {
             var newKhuyenMai = new KhuyenMai
             {
@@ -77,7 +77,7 @@ namespace QLCHTT.DAO
             return true;
         }
 
-        public bool UpdateKhuyenMai(string maKhuyenMai, string tenChuongTrinh, float giaTriKhuyenMai, string moTa, DateTime ngayBatDau, DateTime ngayKetThuc, string dieuKien, int giaTriToiThieu)
+        public bool updateKhuyenMai(string maKhuyenMai, string tenChuongTrinh, float giaTriKhuyenMai, string moTa, DateTime ngayBatDau, DateTime ngayKetThuc, string dieuKien, int giaTriToiThieu)
         {
             var khuyenMai = QLCHTT.KhuyenMais.FirstOrDefault(km => km.MaKhuyenMai == maKhuyenMai);
             if (khuyenMai == null) return false;
@@ -93,7 +93,7 @@ namespace QLCHTT.DAO
             return true;
         }
 
-        public bool DeleteKhuyenMai(string maKhuyenMai)
+        public bool deleteKhuyenMai(string maKhuyenMai)
         {
             var khuyenMai = QLCHTT.KhuyenMais.FirstOrDefault(km => km.MaKhuyenMai == maKhuyenMai);
             if (khuyenMai == null) return false;
@@ -103,7 +103,7 @@ namespace QLCHTT.DAO
             return true;
         }
 
-        public DataTable SearchKhuyenMai(string key)
+        public DataTable searchKhuyenMai(string key)
         {
             var result = from km in QLCHTT.KhuyenMais
                          where km.MaKhuyenMai.Contains(key) || km.TenChuongTrinh.Contains(key)
@@ -111,7 +111,7 @@ namespace QLCHTT.DAO
             return ToDataTableUtils.ToDataTable(result.ToList());
         }
 
-        public DataTable ThongKeKhuyenMai(int thang, int nam)
+        public DataTable thongKeKhuyenMai(int thang, int nam)
         {
             var result = from hd in QLCHTT.HoaDons
                          join km in QLCHTT.KhuyenMais on hd.MaKhuyenMai equals km.MaKhuyenMai
@@ -129,7 +129,7 @@ namespace QLCHTT.DAO
             return ToDataTableUtils.ToDataTable(result.ToList());
         }
 
-        public DataTable ThongKeKhuyenMaiAll()
+        public DataTable thongKeKhuyenMaiAll()
     {
         var result = from km in QLCHTT.KhuyenMais
                      join hd in QLCHTT.HoaDons on km.MaKhuyenMai equals hd.MaKhuyenMai into hdGroup
@@ -147,7 +147,7 @@ namespace QLCHTT.DAO
         return ToDataTableUtils.ToDataTable(result.ToList());
     }
 
-        public DataTable InThongKeKhuyenMai(int thang, int nam)
+        public DataTable inThongKeKhuyenMai(int thang, int nam)
         {
             var result = from hd in QLCHTT.HoaDons
                          join km in QLCHTT.KhuyenMais on hd.MaKhuyenMai equals km.MaKhuyenMai

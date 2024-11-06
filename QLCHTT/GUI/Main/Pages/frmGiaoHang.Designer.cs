@@ -32,7 +32,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.uiTableLayoutPanel1 = new Sunny.UI.UITableLayoutPanel();
             this.uiTableLayoutPanel2 = new Sunny.UI.UITableLayoutPanel();
             this.uiLabel1 = new Sunny.UI.UILabel();
@@ -48,10 +47,6 @@
             this.uiLabel8 = new Sunny.UI.UILabel();
             this.cmbtinhtrang = new Sunny.UI.UIComboBox();
             this.uiTableLayoutPanel3 = new Sunny.UI.UITableLayoutPanel();
-            this.txtsanpham = new Sunny.UI.UITextBox();
-            this.uiLabel6 = new Sunny.UI.UILabel();
-            this.uiLabel7 = new Sunny.UI.UILabel();
-            this.txtsoluong = new Sunny.UI.UITextBox();
             this.uiTableLayoutPanel4 = new Sunny.UI.UITableLayoutPanel();
             this.txttim = new Sunny.UI.UITextBox();
             this.btntim = new Sunny.UI.UISymbolButton();
@@ -61,6 +56,10 @@
             this.btnsua = new Sunny.UI.UISymbolButton();
             this.btnhoadon = new Sunny.UI.UISymbolButton();
             this.dgvgiaohang = new Sunny.UI.UIDataGridView();
+            this.uiLabel7 = new Sunny.UI.UILabel();
+            this.txtsoluong = new Sunny.UI.UITextBox();
+            this.txtsanpham = new Sunny.UI.UITextBox();
+            this.uiLabel6 = new Sunny.UI.UILabel();
             this.uiTableLayoutPanel1.SuspendLayout();
             this.uiTableLayoutPanel2.SuspendLayout();
             this.uiTableLayoutPanel3.SuspendLayout();
@@ -256,7 +255,7 @@
             this.dtpngaygiao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpngaygiao.Location = new System.Drawing.Point(702, 47);
             this.dtpngaygiao.Name = "dtpngaygiao";
-            this.dtpngaygiao.Size = new System.Drawing.Size(228, 35);
+            this.dtpngaygiao.Size = new System.Drawing.Size(228, 30);
             this.dtpngaygiao.TabIndex = 10;
             // 
             // uiLabel8
@@ -313,62 +312,6 @@
             this.uiTableLayoutPanel3.Size = new System.Drawing.Size(933, 46);
             this.uiTableLayoutPanel3.TabIndex = 1;
             this.uiTableLayoutPanel3.TagString = null;
-            // 
-            // txtsanpham
-            // 
-            this.txtsanpham.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtsanpham.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtsanpham.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtsanpham.Location = new System.Drawing.Point(237, 5);
-            this.txtsanpham.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtsanpham.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtsanpham.Name = "txtsanpham";
-            this.txtsanpham.Padding = new System.Windows.Forms.Padding(5);
-            this.txtsanpham.RectColor = System.Drawing.Color.Black;
-            this.txtsanpham.ShowText = false;
-            this.txtsanpham.Size = new System.Drawing.Size(225, 36);
-            this.txtsanpham.TabIndex = 6;
-            this.txtsanpham.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtsanpham.Watermark = "";
-            // 
-            // uiLabel6
-            // 
-            this.uiLabel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiLabel6.Font = new System.Drawing.Font("Arial", 12F);
-            this.uiLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel6.Location = new System.Drawing.Point(3, 0);
-            this.uiLabel6.Name = "uiLabel6";
-            this.uiLabel6.Size = new System.Drawing.Size(227, 46);
-            this.uiLabel6.TabIndex = 1;
-            this.uiLabel6.Text = "Tên sản phẩm:";
-            // 
-            // uiLabel7
-            // 
-            this.uiLabel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiLabel7.Font = new System.Drawing.Font("Arial", 12F);
-            this.uiLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel7.Location = new System.Drawing.Point(469, 0);
-            this.uiLabel7.Name = "uiLabel7";
-            this.uiLabel7.Size = new System.Drawing.Size(227, 46);
-            this.uiLabel7.TabIndex = 2;
-            this.uiLabel7.Text = "Số lượng:";
-            // 
-            // txtsoluong
-            // 
-            this.txtsoluong.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtsoluong.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtsoluong.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtsoluong.Location = new System.Drawing.Point(703, 5);
-            this.txtsoluong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtsoluong.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtsoluong.Name = "txtsoluong";
-            this.txtsoluong.Padding = new System.Windows.Forms.Padding(5);
-            this.txtsoluong.RectColor = System.Drawing.Color.Black;
-            this.txtsoluong.ShowText = false;
-            this.txtsoluong.Size = new System.Drawing.Size(226, 36);
-            this.txtsoluong.TabIndex = 7;
-            this.txtsoluong.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtsoluong.Watermark = "";
             // 
             // uiTableLayoutPanel4
             // 
@@ -536,14 +479,6 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvgiaohang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvgiaohang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 12F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvgiaohang.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvgiaohang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvgiaohang.EnableHeadersVisualStyles = false;
             this.dgvgiaohang.Font = new System.Drawing.Font("Arial", 12F);
@@ -552,18 +487,18 @@
             this.dgvgiaohang.Name = "dgvgiaohang";
             this.dgvgiaohang.ReadOnly = true;
             this.dgvgiaohang.RectColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 12F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvgiaohang.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 12F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvgiaohang.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvgiaohang.RowHeadersWidth = 51;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial", 12F);
-            this.dgvgiaohang.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 12F);
+            this.dgvgiaohang.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvgiaohang.RowTemplate.Height = 24;
             this.dgvgiaohang.SelectedIndex = -1;
             this.dgvgiaohang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -571,6 +506,62 @@
             this.dgvgiaohang.StripeOddColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
             this.dgvgiaohang.TabIndex = 4;
             this.dgvgiaohang.SelectionChanged += new System.EventHandler(this.dgvgiaohang_SelectionChanged);
+            // 
+            // uiLabel7
+            // 
+            this.uiLabel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.uiLabel7.Font = new System.Drawing.Font("Arial", 12F);
+            this.uiLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel7.Location = new System.Drawing.Point(469, 0);
+            this.uiLabel7.Name = "uiLabel7";
+            this.uiLabel7.Size = new System.Drawing.Size(227, 46);
+            this.uiLabel7.TabIndex = 2;
+            this.uiLabel7.Text = "Số lượng:";
+            // 
+            // txtsoluong
+            // 
+            this.txtsoluong.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtsoluong.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtsoluong.Font = new System.Drawing.Font("Arial", 12F);
+            this.txtsoluong.Location = new System.Drawing.Point(703, 5);
+            this.txtsoluong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtsoluong.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txtsoluong.Name = "txtsoluong";
+            this.txtsoluong.Padding = new System.Windows.Forms.Padding(5);
+            this.txtsoluong.RectColor = System.Drawing.Color.Black;
+            this.txtsoluong.ShowText = false;
+            this.txtsoluong.Size = new System.Drawing.Size(226, 36);
+            this.txtsoluong.TabIndex = 7;
+            this.txtsoluong.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtsoluong.Watermark = "";
+            // 
+            // txtsanpham
+            // 
+            this.txtsanpham.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtsanpham.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtsanpham.Font = new System.Drawing.Font("Arial", 12F);
+            this.txtsanpham.Location = new System.Drawing.Point(237, 5);
+            this.txtsanpham.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtsanpham.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txtsanpham.Name = "txtsanpham";
+            this.txtsanpham.Padding = new System.Windows.Forms.Padding(5);
+            this.txtsanpham.RectColor = System.Drawing.Color.Black;
+            this.txtsanpham.ShowText = false;
+            this.txtsanpham.Size = new System.Drawing.Size(225, 36);
+            this.txtsanpham.TabIndex = 6;
+            this.txtsanpham.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtsanpham.Watermark = "";
+            // 
+            // uiLabel6
+            // 
+            this.uiLabel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.uiLabel6.Font = new System.Drawing.Font("Arial", 12F);
+            this.uiLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel6.Location = new System.Drawing.Point(3, 0);
+            this.uiLabel6.Name = "uiLabel6";
+            this.uiLabel6.Size = new System.Drawing.Size(227, 46);
+            this.uiLabel6.TabIndex = 1;
+            this.uiLabel6.Text = "Tên sản phẩm:";
             // 
             // frmGiaoHang
             // 
@@ -610,10 +601,6 @@
         private Sunny.UI.UILabel uiLabel4;
         private Sunny.UI.UILabel uiLabel5;
         private Sunny.UI.UITextBox txtmagiaohang;
-        private Sunny.UI.UITextBox txtsanpham;
-        private Sunny.UI.UILabel uiLabel6;
-        private Sunny.UI.UILabel uiLabel7;
-        private Sunny.UI.UITextBox txtsoluong;
         private Sunny.UI.UIComboBox cmbnvgiao;
         private Sunny.UI.UIComboBox cmbmahd;
         private Sunny.UI.UIRichTextBox txtdiachi;
@@ -627,5 +614,9 @@
         private Sunny.UI.UILabel uiLabel8;
         private Sunny.UI.UIComboBox cmbtinhtrang;
         private Sunny.UI.UISymbolButton btnhoadon;
+        private Sunny.UI.UITextBox txtsanpham;
+        private Sunny.UI.UILabel uiLabel6;
+        private Sunny.UI.UILabel uiLabel7;
+        private Sunny.UI.UITextBox txtsoluong;
     }
 }

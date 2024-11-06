@@ -298,61 +298,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BUS\BaoCaoDoanhThuBUS.cs" />
-    <Compile Include="BUS\BaoHanhBUS.cs" />
-    <Compile Include="BUS\ChiTietHoaDonBUS.cs" />
-    <Compile Include="BUS\ChiTietNhapHangBUS.cs" />
-    <Compile Include="BUS\DangNhapBUS.cs" />
-    <Compile Include="BUS\DanhMucBUS.cs" />
-    <Compile Include="BUS\GiaoHangBUS.cs" />
-    <Compile Include="BUS\HoaDonBUS.cs" />
-    <Compile Include="BUS\InHoaDonBUS.cs" />
-    <Compile Include="BUS\KhachHangBUS.cs" />
-    <Compile Include="BUS\KhuyenMaiBUS.cs" />
-    <Compile Include="BUS\MaHoaDonBUS.cs" />
-    <Compile Include="BUS\NhaCungCapBUS.cs" />
-    <Compile Include="BUS\NhanVienBUS.cs" />
-    <Compile Include="BUS\NhapHangBUS.cs" />
-    <Compile Include="BUS\SanPhamBUS.cs" />
-    <Compile Include="BUS\TonKhoBUS.cs" />
-    <Compile Include="BUS\TraHangBUS.cs" />
-    <Compile Include="BUS\YeuCauBaoHanhBUS.cs" />
-    <Compile Include="DAO\BaoCaoDoanhThuDAO.cs" />
-    <Compile Include="DAO\BaoHanhDAO.cs" />
-    <Compile Include="DAO\ChiTietHoaDonDAO.cs" />
-    <Compile Include="DAO\ChiTietNhapHangDAO.cs" />
-    <Compile Include="DAO\DangNhapDAO.cs" />
-    <Compile Include="DAO\DanhMucDAO.cs" />
-    <Compile Include="DAO\GiaoHangDAO.cs" />
-    <Compile Include="DAO\HoaDonDAO.cs" />
-    <Compile Include="DAO\InHoaDonDAO.cs" />
-    <Compile Include="DAO\KhachHangDAO.cs" />
-    <Compile Include="DAO\KhuyenMaiDAO.cs" />
-    <Compile Include="DAO\MaHoaDonDAO.cs" />
-    <Compile Include="DAO\NhaCungCapDAO.cs" />
-    <Compile Include="DAO\NhanVienDAO.cs" />
-    <Compile Include="DAO\NhapHangDAO.cs" />
-    <Compile Include="DAO\SanPhamDAO.cs" />
-    <Compile Include="DAO\TonKhoDAO.cs" />
-    <Compile Include="DAO\TraHangDAO.cs" />
-    <Compile Include="DAO\YeuCauBaoHanhDAO.cs" />
-    <Compile Include="DBC\SQLConnect.cs" />
-    <Compile Include="DTO\BaoHanhDTO.cs" />
-    <Compile Include="DTO\ChiTietDoiTraDTO.cs" />
-    <Compile Include="DTO\ChiTietDonDatHangDTO.cs" />
-    <Compile Include="DTO\ChiTietDonGiaoHangDTO.cs" />
-    <Compile Include="DTO\ChiTietDonMuaHangDTO.cs" />
-    <Compile Include="DTO\DanhMucDTO.cs" />
-    <Compile Include="DTO\DoiTraDTO.cs" />
-    <Compile Include="DTO\DonDatHangDTO.cs" />
-    <Compile Include="DTO\DonGiaoHangDTO.cs" />
-    <Compile Include="DTO\DonMuaHangDTO.cs" />
-    <Compile Include="DTO\KhuyenMaiDTO.cs" />
-    <Compile Include="DTO\KhachHangDTO.cs" />
-    <Compile Include="DTO\NhaCungCapDTO.cs" />
-    <Compile Include="DTO\NhanVienDTO.cs" />
-    <Compile Include="DTO\SanPhamDTO.cs" />
-    <Compile Include="DTO\User.cs" />
     <Compile Include="GUI\DangNhap\frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -497,36 +442,18 @@
     <Compile Include="GUI\Main\Pages\frmSanPham.Designer.cs">
       <DependentUpon>frmSanPham.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\ChiTietGiaoHang.cs" />
-    <Compile Include="Model\GiaoHang.cs" />
-    <Compile Include="Model\GiaoHangDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QLCHTT.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QLCHTT.dbml</DependentUpon>
-    </Compile>
     <Compile Include="rptInHoaDon.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>rptInHoaDon.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="rptInHoaDonBaoHanh.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>rptInHoaDonBaoHanh.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="rptThongKeKhuyenMai.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>rptThongKeKhuyenMai.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <Compile Include="Utils\ToDataTable.cs" />
     <EmbeddedResource Include="GUI\DangNhap\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -609,21 +536,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="QLCHTT.dbml.layout">
-      <DependentUpon>QLCHTT.dbml</DependentUpon>
-    </None>
-    <EmbeddedResource Include="rptInHoaDon.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>rptInHoaDon.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="rptInHoaDonBaoHanh.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>rptInHoaDonBaoHanh.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="rptThongKeKhuyenMai.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>rptThongKeKhuyenMai.cs</LastGenOutput>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -634,6 +546,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="rptInHoaDon.rpt" />
+    <None Include="rptInHoaDonBaoHanh.rpt" />
+    <None Include="rptThongKeKhuyenMai.rpt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -655,18 +570,26 @@
     <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll" />
     <Content Include="SqlServerTypes\x86\msvcr120.dll" />
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll" />
-    <None Include="QLCHTT.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>QLCHTT.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Resources\logo2.png" />
     <None Include="Resources\background_dangnhap.jpg" />
     <None Include="Resources\logo1.png" />
     <None Include="Resources\logo.png" />
     <None Include="Resources\khuyenmai.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{1599ea9e-1cfd-4216-9ad7-41323894f43a}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{f6f8ebd2-2fac-48e0-be81-aefd4018f5af}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{c2ae465e-91c8-4f35-99d7-0d709b7f3980}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -15,7 +15,6 @@ using OfficeOpenXml;
 using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
 using System.IO;
-using QLCHTT.Model;
 
 namespace QLCHTT.GUI.Main.Pages
 {
@@ -31,6 +30,7 @@ namespace QLCHTT.GUI.Main.Pages
             nhanVienBUS = new NhanVienBUS();
             maHoaDonBUS = new MaHoaDonBUS();
             LoadDataDanhMuc();
+            loadComboNhanVien();
             loadComboMaHoaDOn();
         }
 
@@ -40,7 +40,6 @@ namespace QLCHTT.GUI.Main.Pages
             cmbnvgiao.DataSource = dtNhanVien;
             cmbnvgiao.DisplayMember = "TenNhanVien";
             cmbnvgiao.ValueMember = "MaNhanVien";
-
         }
 
         private void loadComboMaHoaDOn()
@@ -60,9 +59,6 @@ namespace QLCHTT.GUI.Main.Pages
                 DataTable dtDanhMuc = giaoHangBUS.getAll();
                 dgvgiaohang.DataSource = dtDanhMuc;
 
-
-
-
                 if (dgvgiaohang.Columns.Count > 0)
                 {
                     dgvgiaohang.Columns[0].HeaderText = "Mã giao hàng";
@@ -71,8 +67,6 @@ namespace QLCHTT.GUI.Main.Pages
                     dgvgiaohang.Columns[3].HeaderText = "Ngày giao";
                     dgvgiaohang.Columns[4].HeaderText = "Địa chỉ";
                     dgvgiaohang.Columns[5].HeaderText = "Tình trạng";
-                    dgvgiaohang.Columns[6].HeaderText = "Tên sản phẩm";
-                    dgvgiaohang.Columns[7].HeaderText = "Số lượng";
 
                 }
                 dgvgiaohang.ClearSelection();
@@ -89,11 +83,9 @@ namespace QLCHTT.GUI.Main.Pages
             {
                 DataGridViewRow selectedRow = dgvgiaohang.SelectedRows[0];
                 txtmagiaohang.Text = selectedRow.Cells["MaGiaoHang"].Value.ToString();
-                txtsanpham.Text = selectedRow.Cells["TenSanPham"].Value.ToString();
                 txtdiachi.Text = selectedRow.Cells["DiaChi"].Value.ToString();
-                txtsoluong.Text = selectedRow.Cells["SoLuong"].Value.ToString();
                 dtpngaygiao.Text = selectedRow.Cells["NgayGiao"].Value.ToString();
-                string nhanVienGiao = selectedRow.Cells["TenNhanVien"].Value.ToString();
+                string nhanVienGiao = selectedRow.Cells["NhanVienGiao"].Value.ToString();
                 string tinhTrang = selectedRow.Cells["TinhTrang"].Value.ToString();
 
                 cmbtinhtrang.Text = tinhTrang;
@@ -145,8 +137,17 @@ namespace QLCHTT.GUI.Main.Pages
 
                 if (MessageBox.Show("Bạn có chắc chắn muốn sửa giao hàng này?", "Xác nhận", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
-
-                }
+                    bool kq = giaoHangBUS.suaGiaoHang(nhanVienGiao, ngayGiao, tinhtrang, magh);
+                    if (kq)
+                    {
+                        MessageBox.Show("Sửa giao hàng thành công");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Sửa giao hàng thất bại");
+                    }
+                    LoadDataDanhMuc();
+;                }
             }
             else
             {
@@ -286,6 +287,5 @@ namespace QLCHTT.GUI.Main.Pages
                 }
             }
         }
-
     }
 }

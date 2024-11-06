@@ -20,7 +20,7 @@ namespace QLCHTT.GUI.Pages
         public frmTraHang()
         {
             InitializeComponent();
-            loadDataHDTraHang();
+            //loadDataHDTraHang();
         }
 
         private void uiLabel2_Click(object sender, EventArgs e)

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace QLCHTT.BUS
 {
-    internal class MaHoaDonBUS
+    public class MaHoaDonBUS
     {
         MaHoaDonDAO maHoaDonDAO;
         public MaHoaDonBUS()

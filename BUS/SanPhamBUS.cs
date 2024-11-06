@@ -47,29 +47,17 @@ namespace QLCHTT.BUS
         {
             return sanPhamDAO.searchSanPham(key);
         }
-        public bool addSanPham(string tenSanPham, string maVach, string baoHanh, int danhMuc, int nhaCungCap, int giaBan, DateTime ngaySanXuat, string xuatXu, string moTa)
+        public bool addSanPham(string tenSanPham, string baoHanh, int danhMuc, int giaBan, DateTime ngaySanXuat, string xuatXu, string moTa)
         {
-            return sanPhamDAO.addSanPham(tenSanPham, maVach, baoHanh, danhMuc, nhaCungCap, giaBan, ngaySanXuat, xuatXu, moTa);
+            return sanPhamDAO.addSanPham(tenSanPham, baoHanh, danhMuc, giaBan, ngaySanXuat, xuatXu, moTa);
         }
-        public bool updateSanPham(string maSanPham, string tenSanPham, string maVach, string baoHanh, int danhMuc, int nhaCungCap, int giaBan, DateTime ngaySanXuat, string xuatXu, string moTa)
+        public bool updateSanPham(string maSanPham, string tenSanPham, string baoHanh, int danhMuc, int giaBan, DateTime ngaySanXuat, string xuatXu, string moTa)
         {
-            return sanPhamDAO.updateSanPham(maSanPham, tenSanPham, maVach, baoHanh, danhMuc, nhaCungCap, giaBan, ngaySanXuat, xuatXu, moTa);
+            return sanPhamDAO.updateSanPham(maSanPham, tenSanPham, baoHanh, danhMuc, giaBan, ngaySanXuat, xuatXu, moTa);
         }
         public bool deleteSanPham(string maSanPham)
         {
             return sanPhamDAO.deleteSanPham(maSanPham);
-        }
-        public bool checkMaVachTrung(string maVach)
-        {
-            return sanPhamDAO.checkMaVachTrung(maVach);
-        }
-        public bool checkMaVachTrungSua(string maVach, string maSanPham)
-        {
-            return sanPhamDAO.checkMaVachTrungSua(maVach, maSanPham);
-        }
-        public string layMaVach(string maSanPham)
-        {
-            return sanPhamDAO.layMaVach(maSanPham);
         }
         public int layBaoHanh(string maSanPham)
         {

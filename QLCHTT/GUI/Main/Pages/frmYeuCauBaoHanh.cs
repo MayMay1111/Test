@@ -57,36 +57,15 @@ namespace QLCHTT.GUI.Pages
                     cbSanPham.ValueMember = "MaSanPham";
                     cbSanPham.DisplayMember = "TenSanPham";
                     cbSanPham.SelectedIndex = 0;
-                    loadMaVach();
                     baoHanhHopLe(DateTime.Parse(txtNgayMua.Text));
                 }
                 else
                 {
 
                     cbSanPham.DataSource = null;
-                    txtMaVach.Text = string.Empty;
                 }
             }
         }
-
-        private void loadMaVach()
-        {
-            if (cbSanPham.SelectedValue != null)
-            {
-                string maSanPham = cbSanPham.SelectedValue.ToString();
-                string maVach = sanPhamBUS.layMaVach(maSanPham);
-                if (maVach != null)
-                {
-                    txtMaVach.Text = maVach;
-                }
-                else
-                {
-
-                    txtMaVach.Text = string.Empty;
-                }
-            }
-        }
-
 
         private void loadForm()
         {
@@ -137,7 +116,6 @@ namespace QLCHTT.GUI.Pages
 
         private void cbSanPham_SelectedIndexChanged(object sender, EventArgs e)
         {
-            loadMaVach();
             DateTime ngayMua;
             if (DateTime.TryParse(txtNgayMua.Text, out ngayMua))
             {
@@ -165,7 +143,7 @@ namespace QLCHTT.GUI.Pages
                 {
                     string lyDo = rtxtLyDo.Text.Trim();
                     string trangThai = cbTrangThai.Text.Trim();
-                    if (yeuCauBaoHanhBUS.addYeuCauBaoHanh(maHoaDon, maSanPham, DateTime.Now, lyDo, trangThai))
+                    if (yeuCauBaoHanhBUS.addYeuCauBaoHanh(maHoaDon, maSanPham, lyDo, trangThai))
                     {
                         MessageBox.Show("Thêm yêu cầu bảo hành thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         loadForm();
@@ -286,7 +264,6 @@ namespace QLCHTT.GUI.Pages
             cbTrangThai.Text = "";
             txtNgayYeuCau.Text = DateTime.Now.ToString();
             txtNgayMua.Text = "";
-            txtMaVach.Text = "";
             rtxtLyDo.Text = "";
         }
 

@@ -20,6 +20,34 @@ namespace QLCHTT.DAO
 
             return ToDataTableUtils.ToDataTable(result.ToList());
         }
+        public DataTable getChucVu()
+        {
+            var result = (from nv in QLCHTT.NhanViens
+                          select nv.ChucVu).Distinct().ToList();
+
+            var dataTable = new DataTable("ChucVu");
+            dataTable.Columns.Add("TenChucVu", typeof(string));
+
+            foreach (var item in result)
+            {
+                dataTable.Rows.Add(item);
+            }
+
+            return dataTable;
+        }
+
+        public bool xoaNhanVien(string maNhanVien) { 
+            var nhanVien = QLCHTT.NhanViens.SingleOrDefault(nv => nv.MaNhanVien == maNhanVien);
+
+            if (nhanVien != null)
+            {
+                QLCHTT.NhanViens.DeleteOnSubmit(nhanVien);
+                QLCHTT.SubmitChanges();
+                return true;
+            }
+
+            return false;
+        }
 
         public bool addNhanVien(string ten, string gioitinh, DateTime ngaySinh, string sdt, string chucVu, decimal mucLuong, string taiKhoan, string matKhau, byte[] hinhAnh)
         {

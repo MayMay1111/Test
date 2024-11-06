@@ -21,18 +21,15 @@ namespace QLCHTT.GUI.Main.Pages
     {
         SanPhamBUS sanphamBUS;
         BaoHanhBUS baoHanhBUS;
-        NhaCungCapBUS nhaCungCapBUS;
         DanhMucBUS danhMucBUS;
         public frmSanPham()
         {
             InitializeComponent();
             sanphamBUS = new SanPhamBUS();
             baoHanhBUS = new BaoHanhBUS();
-            nhaCungCapBUS = new NhaCungCapBUS();
             danhMucBUS = new DanhMucBUS();
             loadSanPham();
             loadCBBaoHanh();
-            loadNhaCungCap();
             loadDanhMuc();
         }
         private void loadCBBaoHanh()
@@ -48,15 +45,6 @@ namespace QLCHTT.GUI.Main.Pages
             cbBaoHanh.DisplayMember = "ThoiGianBaoHanhHT";
             cbBaoHanh.ValueMember = "MaBaoHanh";
         }
-        private void loadNhaCungCap()
-        {
-            cbNhaCungCap.DataSource = null;
-            DataTable nhaCungCap = nhaCungCapBUS.getAll();
-            cbNhaCungCap.DataSource = nhaCungCap;
-            cbNhaCungCap.DisplayMember = "TenNhaCungCap";
-            cbNhaCungCap.ValueMember = "MaNhaCungCap";
-        }
-
         private void loadDanhMuc()
         {
             cbDanhMuc.DataSource = null;
@@ -75,14 +63,12 @@ namespace QLCHTT.GUI.Main.Pages
             {
                 dtgSanPham.Columns[0].HeaderText = "Mã sản phẩm";
                 dtgSanPham.Columns[1].HeaderText = "Mã bảo hành";
-                dtgSanPham.Columns[2].HeaderText = "Mã vạch";
-                dtgSanPham.Columns[3].HeaderText = "Tên sản phẩm";
-                dtgSanPham.Columns[4].HeaderText = "Mã sản phẩm";
-                dtgSanPham.Columns[5].HeaderText = "Mã nhà cung cấp";
-                dtgSanPham.Columns[6].HeaderText = "Mô tả";
-                dtgSanPham.Columns[7].HeaderText = "Giá bán";
-                dtgSanPham.Columns[8].HeaderText = "Ngày sản xuất";
-                dtgSanPham.Columns[9].HeaderText = "Xuất xứ";
+                dtgSanPham.Columns[2].HeaderText = "Tên sản phẩm";
+                dtgSanPham.Columns[3].HeaderText = "Mã danh mục";
+                dtgSanPham.Columns[4].HeaderText = "Mô tả";
+                dtgSanPham.Columns[5].HeaderText = "Giá bán";
+                dtgSanPham.Columns[6].HeaderText = "Ngày sản xuất";
+                dtgSanPham.Columns[7].HeaderText = "Xuất xứ";
 
             }
             dtgSanPham.ClearSelection();
@@ -96,10 +82,8 @@ namespace QLCHTT.GUI.Main.Pages
                 DataGridViewRow selectedRow = dtgSanPham.SelectedRows[0];
                 string maSanPham = selectedRow.Cells["MaSanPham"].Value.ToString();
                 string maBaoHanh = selectedRow.Cells["MaBaoHanh"].Value.ToString();
-                string maVach = selectedRow.Cells["MaVach"].Value.ToString();
                 string tenSanPham = selectedRow.Cells["TenSanPham"].Value.ToString();
                 int maDanhMuc = int.Parse(selectedRow.Cells["MaDanhMuc"].Value.ToString());
-                int maNhaCungCap = int.Parse(selectedRow.Cells["MaNhaCungCap"].Value.ToString());
                 string moTa = selectedRow.Cells["MoTa"].Value.ToString();
                 DateTime ngaySanXuat = DateTime.Parse(selectedRow.Cells["NgaySanXuat"].Value.ToString());
                 string xuatXu = selectedRow.Cells["XuatXu"].Value.ToString();
@@ -107,10 +91,8 @@ namespace QLCHTT.GUI.Main.Pages
 
                 txtGiaBan.Text = giaBan.ToString("N0") + " VND";
                 txtSanPham.Text = tenSanPham;
-                txtMaVach.Text = maVach;
                 cbBaoHanh.SelectedValue = maBaoHanh;
                 cbDanhMuc.SelectedValue = maDanhMuc;
-                cbNhaCungCap.SelectedValue = maNhaCungCap;
                 dtpNgaySanXuat.Value = ngaySanXuat;
                 txtXuatXu.Text = xuatXu;
                 rtxtMoTa.Text = moTa;
@@ -132,10 +114,8 @@ namespace QLCHTT.GUI.Main.Pages
         private void btnThemDanhMuc_Click(object sender, EventArgs e)
         {
             string tenSanPham = txtSanPham.Text.Trim();
-            string maVach = txtMaVach.Text.Trim();
             string baoHanh = cbBaoHanh.SelectedValue.ToString();
             int danhMuc = (int) cbDanhMuc.SelectedValue;
-            int nhaCungCap = (int) cbNhaCungCap.SelectedValue;
             int giaBan = 0;
 
             string giaBanText = txtGiaBan.Text.Replace("VND", "").Replace(",", "").Trim();
@@ -149,22 +129,17 @@ namespace QLCHTT.GUI.Main.Pages
                 DateTime ngaySanXuat = dtpNgaySanXuat.Value;
                 string xuatXu = txtXuatXu.Text;
                 string moTa = rtxtMoTa.Text.Trim();
-                if (string.IsNullOrEmpty(tenSanPham) || string.IsNullOrEmpty(maVach) ||
-                    string.IsNullOrEmpty(baoHanh.ToString()) || string.IsNullOrEmpty(danhMuc.ToString()) ||
-                    string.IsNullOrEmpty(nhaCungCap.ToString()) || string.IsNullOrEmpty(giaBanText) || string.IsNullOrEmpty(xuatXu))
+                if (string.IsNullOrEmpty(tenSanPham) ||
+                    string.IsNullOrEmpty(baoHanh.ToString()) || string.IsNullOrEmpty(danhMuc.ToString()) || string.IsNullOrEmpty(giaBanText) || string.IsNullOrEmpty(xuatXu))
                 {
                     MessageBox.Show("Phải nhập đủ dữ liệu để thêm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
-                }
-                if (sanphamBUS.checkMaVachTrung(maVach))
-                {
-                    MessageBox.Show("Mã vạch của sản phẩm không được trùng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
                     if (MessageBox.Show("Bạn có chắc chắn muốn thêm sản phẩm "+tenSanPham+"?", "Xác nhận", MessageBoxButtons.OKCancel) == DialogResult.OK)
                     {
-                        if (sanphamBUS.addSanPham(tenSanPham, maVach, baoHanh, danhMuc, nhaCungCap, giaBan, ngaySanXuat, xuatXu, moTa))
+                        if (sanphamBUS.addSanPham(tenSanPham, baoHanh, danhMuc, giaBan, ngaySanXuat, xuatXu, moTa))
                         {
                             MessageBox.Show("Thêm sản phẩm thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             loadSanPham();
@@ -183,9 +158,8 @@ namespace QLCHTT.GUI.Main.Pages
         {
             loadCBBaoHanh();
             loadDanhMuc();
-            loadNhaCungCap();
             loadSanPham();
-            txtSanPham.Text = txtMaVach.Text = txtGiaBan.Text = txtXuatXu.Text = rtxtMoTa.Text = cbBaoHanh.Text = cbNhaCungCap.Text = cbDanhMuc.Text = "";
+            txtSanPham.Text = txtGiaBan.Text = txtXuatXu.Text = rtxtMoTa.Text = cbBaoHanh.Text = cbDanhMuc.Text = "";
 
         }
 
@@ -247,10 +221,8 @@ namespace QLCHTT.GUI.Main.Pages
                 DataGridViewRow selectedRow = dtgSanPham.SelectedRows[0];
                 string maSanPham = selectedRow.Cells["MaSanPham"].Value.ToString();
                 string tenSanPham = txtSanPham.Text.Trim();
-                string maVach = txtMaVach.Text.Trim();
                 string baoHanh = cbBaoHanh.SelectedValue.ToString();
                 int danhMuc = (int) cbDanhMuc.SelectedValue;
-                int nhaCungCap = (int) cbNhaCungCap.SelectedValue;
                 int giaBan = 0;
 
                 string giaBanText = txtGiaBan.Text.Replace("VND", "").Replace(",", "").Trim();
@@ -264,22 +236,17 @@ namespace QLCHTT.GUI.Main.Pages
                     DateTime ngaySanXuat = dtpNgaySanXuat.Value;
                     string xuatXu = txtXuatXu.Text;
                     string moTa = rtxtMoTa.Text.Trim();
-                    if (string.IsNullOrEmpty(tenSanPham) || string.IsNullOrEmpty(maVach) ||
-                        string.IsNullOrEmpty(baoHanh.ToString()) || string.IsNullOrEmpty(danhMuc.ToString()) ||
-                        string.IsNullOrEmpty(nhaCungCap.ToString()) || string.IsNullOrEmpty(giaBanText) || string.IsNullOrEmpty(xuatXu))
+                    if (string.IsNullOrEmpty(tenSanPham) ||
+                        string.IsNullOrEmpty(baoHanh.ToString()) || string.IsNullOrEmpty(danhMuc.ToString()) || string.IsNullOrEmpty(giaBanText) || string.IsNullOrEmpty(xuatXu))
                     {
                         MessageBox.Show("Phải nhập đủ dữ liệu để sửa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
-                    }
-                    if (sanphamBUS.checkMaVachTrungSua(maVach, maSanPham))
-                    {
-                        MessageBox.Show("Mã vạch của sản phẩm không được trùng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     else
                     {
                         if (MessageBox.Show("Bạn có chắc chắn muốn sửa sản phẩm "+tenSanPham+"?", "Xác nhận", MessageBoxButtons.OKCancel) == DialogResult.OK)
                         {
-                            if (sanphamBUS.updateSanPham(maSanPham, tenSanPham, maVach, baoHanh, danhMuc, nhaCungCap, giaBan, ngaySanXuat, xuatXu, moTa))
+                            if (sanphamBUS.updateSanPham(maSanPham, tenSanPham, baoHanh, danhMuc, giaBan, ngaySanXuat, xuatXu, moTa))
                             {
                                 MessageBox.Show("Sửa sản phẩm thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 loadSanPham();
@@ -360,7 +327,6 @@ namespace QLCHTT.GUI.Main.Pages
         {
             loadCBBaoHanh();
             loadDanhMuc();
-            loadNhaCungCap();
             loadSanPham();
         }
     }

@@ -20,7 +20,17 @@ namespace QLCHTT.DAO
         public DataTable getAll()
         {
             var results = from sp in QLCHTT.SanPhams
-                          select sp;
+                          select new
+                          {
+                              sp.MaSanPham,
+                              sp.MaBaoHanh,
+                              sp.TenSanPham,
+                              sp.MaDanhMuc,
+                              sp.MoTa,
+                              sp.GiaBan,
+                              sp.NgaySanXuat,
+                              sp.XuatXu,
+                          };
 
             return ToDataTableUtils.ToDataTable(results.ToList());
         }
@@ -68,7 +78,19 @@ namespace QLCHTT.DAO
 
         public int soLuongCon(string maSanPham)
         {
-            return 0;
+            var tongSoLuongNhap = QLCHTT.ChiTietDonDatHangNhaCungCaps
+                .Where(ct => ct.MaSanPham == maSanPham &&
+                QLCHTT.DonDatHangNhaCungCaps
+                .Any(dh => dh.MaDonDatHang == ct.MaDonDatHang && dh.TrangThai == "Đã nhập hàng vào kho"))
+                .Sum(ct => (int?)ct.SoLuong) ?? 0;
+
+            var tongSoLuongBan = QLCHTT.ChiTietHoaDons
+                .Where(ct => ct.MaSanPham == maSanPham)
+                .Sum(ct => (int?)ct.SoLuong) ?? 0;
+
+            int soLuongConLai = tongSoLuongNhap - tongSoLuongBan;
+
+            return soLuongConLai;
         }
 
         public DataTable searchSanPham(string key)
@@ -87,8 +109,23 @@ namespace QLCHTT.DAO
 
         public bool addSanPham(string tenSanPham,string baoHanh, int danhMuc, int giaBan, DateTime ngaySanXuat, string xuatXu, string moTa)
         {
+            var maxKhachHang = QLCHTT.KhachHangs
+            .OrderByDescending(kh => kh.MaKhachHang)
+            .FirstOrDefault();
+
+            string newMaSanPham;
+            if (maxKhachHang != null)
+            {
+                int lastNumber = int.Parse(maxKhachHang.MaKhachHang.Substring(2));
+                newMaSanPham = "SP" + (lastNumber + 1).ToString("D8");
+            }
+            else
+            {
+                newMaSanPham = "SP00000001";
+            }
             var newSanPham = new SanPham
             {
+                MaSanPham = newMaSanPham,
                 TenSanPham = tenSanPham,
                 MaBaoHanh = baoHanh,
                 MaDanhMuc = danhMuc,

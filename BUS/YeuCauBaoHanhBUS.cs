@@ -19,9 +19,9 @@ namespace QLCHTT.BUS
         {
             return yeuCauBaoHanhDAO.getAll();
         }
-        public bool addYeuCauBaoHanh(string maHoaDon, string maSanPham, DateTime ngayYeuCau, string lyDo, string trangThai)
+        public bool addYeuCauBaoHanh(string maHoaDon, string maSanPham,  string lyDo, string trangThai)
         {
-            return yeuCauBaoHanhDAO.addYeuCauBaoHanh(maHoaDon, maSanPham, ngayYeuCau, lyDo, trangThai);
+            return yeuCauBaoHanhDAO.addYeuCauBaoHanh(maHoaDon, maSanPham, lyDo, trangThai);
         }
         public bool deleteYeuCauBaoHanh(string maYeuCau)
         {

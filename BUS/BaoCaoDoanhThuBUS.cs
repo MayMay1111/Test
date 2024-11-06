@@ -8,7 +8,7 @@ using System.Data;
 
 namespace QLCHTT.BUS
 {
-    internal class BaoCaoDoanhThuBUS
+    public class BaoCaoDoanhThuBUS
     {
         BaoCaoDoanhThuDAO baocao;
         public BaoCaoDoanhThuBUS()

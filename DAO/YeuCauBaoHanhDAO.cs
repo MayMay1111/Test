@@ -19,15 +19,41 @@ namespace QLCHTT.DAO
         public DataTable getAll()
         {
             var query = from ycbh in QLCHTT.YeuCauBaoHanhs
-                        select ycbh;
+                        select new
+                        {
+                            ycbh.MaYeuCauBaoHanh,
+                            ycbh.MaHoaDon,
+                            ycbh.MaSanPham,
+                            ycbh.NgayYeuCau,
+                            ycbh.LyDo,
+                            ycbh.TrangThai
+                        };
 
             return ToDataTableUtils.ToDataTable(query);
         }
 
-        public bool addYeuCauBaoHanh(string maHoaDon, string maSanPham, DateTime ngayYeuCau, string lyDo, string trangThai)
+        public bool addYeuCauBaoHanh(string maHoaDon, string maSanPham, string lyDo, string trangThai)
         {
+            var maxYCBH = QLCHTT.YeuCauBaoHanhs
+            .OrderByDescending(ycbh => ycbh.MaYeuCauBaoHanh)
+            .FirstOrDefault();
+
+            string newMaYCBH;
+            if (maxYCBH != null)
+            {
+                int lastNumber = int.Parse(maxYCBH.MaHoaDon.Substring(2));
+                newMaYCBH = "YCBH" + (lastNumber + 1).ToString("D6");
+            }
+            else
+            {
+                newMaYCBH = "YCBH000001";
+            }
+            
+            DateTime ngayYeuCau = DateTime.Now.Date;
+
             var newRequest = new YeuCauBaoHanh
             {
+                MaYeuCauBaoHanh = newMaYCBH,
                 MaHoaDon = maHoaDon,
                 MaSanPham = maSanPham,
                 NgayYeuCau = ngayYeuCau,

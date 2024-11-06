@@ -1,0 +1,8 @@
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\bin\Debug\DAO.dll.config
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\bin\Debug\DAO.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\bin\Debug\DAO.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\bin\Debug\DTO.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\bin\Debug\DTO.pdb
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\obj\Debug\DAO.dll
+C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\obj\Debug\DAO.pdb

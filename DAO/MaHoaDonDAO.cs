@@ -18,8 +18,8 @@ namespace QLCHTT.DAO
         }
         public DataTable getAll()
         {
-            var result = from gh in QLCHTT.GiaoHangs
-                         select gh;
+            var result = from hd in QLCHTT.GiaoHangs
+                         select hd;
             return ToDataTableUtils.ToDataTable(result.ToList());
         }
     }

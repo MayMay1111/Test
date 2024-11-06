@@ -27,12 +27,6 @@ namespace QLCHTT.GUI.Pages
             LoadDataNhaCungCap();
         }
 
-        private bool checkEmail(string email)
-        {
-            string e = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$";
-            return Regex.IsMatch(email, e);
-        }
-
         private bool checkSDT(string phoneNumber)
         {
             string sdt = @"^0[0-9]{9,10}$";
@@ -51,8 +45,7 @@ namespace QLCHTT.GUI.Pages
                     dtgNhaCungCap.Columns[1].HeaderText = "Tên nhà cung cấp";
                     dtgNhaCungCap.Columns[2].HeaderText = "Người liên hệ";
                     dtgNhaCungCap.Columns[3].HeaderText = "Số điện thoại";
-                    dtgNhaCungCap.Columns[4].HeaderText = "Email";
-                    dtgNhaCungCap.Columns[5].HeaderText = "Địa chỉ";
+                    dtgNhaCungCap.Columns[4].HeaderText = "Địa chỉ";
                 }
                 dtgNhaCungCap.ClearSelection();
             }
@@ -256,9 +249,8 @@ namespace QLCHTT.GUI.Pages
             string nguoiLienHe = txtNguoiLienHe.Text.Trim();
             string diaChi = txtDiaChi.Text.Trim();
             string soDienThoai = txtSoDienThoai.Text.Trim();
-            string email = txtEmail.Text.Trim();
 
-            if (string.IsNullOrEmpty(tenNhaCungCap) || string.IsNullOrEmpty(nguoiLienHe) || string.IsNullOrEmpty(diaChi) || string.IsNullOrEmpty(soDienThoai) || string.IsNullOrEmpty(email))
+            if (string.IsNullOrEmpty(tenNhaCungCap) || string.IsNullOrEmpty(nguoiLienHe) || string.IsNullOrEmpty(diaChi) || string.IsNullOrEmpty(soDienThoai))
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -270,15 +262,9 @@ namespace QLCHTT.GUI.Pages
                 return;
             }
 
-            if (!checkEmail(email))
-            {
-                MessageBox.Show("Email không hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
             if (MessageBox.Show("Bạn có chắc chắn muốn thêm nhà cung cấp " + tenNhaCungCap + "?", "Xác nhận", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
-                if (nhaCungCapBUS.addNhaCungCap(tenNhaCungCap, nguoiLienHe, diaChi, soDienThoai, email))
+                if (nhaCungCapBUS.addNhaCungCap(tenNhaCungCap, nguoiLienHe, diaChi, soDienThoai))
                 {
                     MessageBox.Show("Thêm nhà cung cấp thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     LoadDataNhaCungCap();
@@ -338,9 +324,8 @@ namespace QLCHTT.GUI.Pages
                 string nguoiLienHe = txtNguoiLienHe.Text.Trim();
                 string diaChi = txtDiaChi.Text.Trim();
                 string soDienThoai = txtSoDienThoai.Text.Trim();
-                string email = txtEmail.Text.Trim();
 
-                if (string.IsNullOrEmpty(tenNhaCungCap) || string.IsNullOrEmpty(nguoiLienHe) || string.IsNullOrEmpty(diaChi) || string.IsNullOrEmpty(soDienThoai) || string.IsNullOrEmpty(email))
+                if (string.IsNullOrEmpty(tenNhaCungCap) || string.IsNullOrEmpty(nguoiLienHe) || string.IsNullOrEmpty(diaChi) || string.IsNullOrEmpty(soDienThoai))
                 {
                     MessageBox.Show("Tên nhà cung cấp không được bỏ trống.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -352,15 +337,9 @@ namespace QLCHTT.GUI.Pages
                     return;
                 }
 
-                if (!checkEmail(email))
-                {
-                    MessageBox.Show("Email không hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-
                 if (MessageBox.Show("Bạn có chắc chắn muốn sửa nhà cung cấp " + tenNhaCungCap + "?", "Xác nhận", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
-                    if (nhaCungCapBUS.updateNhaCungCap(maNhaCungCap, tenNhaCungCap, nguoiLienHe, diaChi, soDienThoai, email))
+                    if (nhaCungCapBUS.updateNhaCungCap(maNhaCungCap, tenNhaCungCap, nguoiLienHe, diaChi, soDienThoai))
                     {
                         MessageBox.Show("Sửa nhà cung cấp thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         LoadDataNhaCungCap();
@@ -387,7 +366,6 @@ namespace QLCHTT.GUI.Pages
                 txtNguoiLienHe.Text = selectedRow.Cells["NguoiLienHe"].Value.ToString();
                 txtDiaChi.Text = selectedRow.Cells["DiaChi"].Value.ToString();
                 txtSoDienThoai.Text = selectedRow.Cells["SoDienThoai"].Value.ToString();
-                txtEmail.Text = selectedRow.Cells["Email"].Value.ToString();
 
             }
         }

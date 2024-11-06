@@ -1,6 +1,6 @@
 ﻿using QLCHTT.BUS;
 using QLCHTT.DAO;
-using QuanLyBanHangTheThao.DAO;
+using QuanLyBanHangTheThao.DTO;
 using Sunny.UI;
 using System;
 using System.Data;
@@ -13,7 +13,6 @@ namespace QLCHTT.GUI.Pages
     public partial class frmNhanVien : UIPage
     {
         NhanVienBUS nhanVienBUS = new NhanVienBUS();
-        SQLConnect db = new SQLConnect();
         NhanVienDAO nvDAO = new NhanVienDAO();
         DataTable dtNV = new DataTable();
         private string maNhanVienHienTai;
@@ -23,7 +22,7 @@ namespace QLCHTT.GUI.Pages
 
         public frmNhanVien()
         {
-            dtNV = db.getDataTable(NhanVienDAO.strNhanVien);
+            dtNV = nvDAO.getDataTable();
             InitializeComponent();
             loadDataNV();
             loadCBO_ChucVu();
@@ -54,7 +53,6 @@ namespace QLCHTT.GUI.Pages
         private void dataBinding(DataTable dt)
         {
             txtTenNV.DataBindings.Clear();
-            txtEmail.DataBindings.Clear();
             txtNgaySinh.DataBindings.Clear();
             txtGioiTinh.DataBindings.Clear();
             txtSoDT.DataBindings.Clear();
@@ -65,7 +63,6 @@ namespace QLCHTT.GUI.Pages
             imgNhanVien.DataBindings.Clear(); 
 
             txtTenNV.DataBindings.Add("Text", dt, "TenNhanVien");
-            txtEmail.DataBindings.Add("Text", dt, "Email");
             txtNgaySinh.DataBindings.Add("Text", dt, "NgaySinh");
             txtGioiTinh.DataBindings.Add("Text", dt, "GioiTinh");
             txtSoDT.DataBindings.Add("Text", dt, "SoDienThoai");
@@ -87,31 +84,19 @@ namespace QLCHTT.GUI.Pages
             txtMucLuong.Text = string.Empty;
             txtMatKhau.Text = string.Empty;
             txtGioiTinh.Text = string.Empty;
-            txtEmail.Text = string.Empty;   
 
             txtTaiKhoan.Enabled = true;
             txtMatKhau.Enabled = true;
             
         }
-        private bool ValiDateEmail(string email)
-        {
-            try
-            {
-                MailAddress check = new MailAddress(email);
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-        }
+
         private bool isEmpty(string s)
         {
             return s.Length <= 0;
         }
         private int checkInput()
         {
-            if (isEmpty(txtTenNV.Text) || isEmpty(txtEmail.Text) || isEmpty(txtSoDT.Text) || isEmpty(txtNgaySinh.Text) || isEmpty(txtTaiKhoan.Text) || isEmpty(txtMatKhau.Text) || isEmpty(txtChucVu.Text) || isEmpty(txtMucLuong.Text))
+            if (isEmpty(txtTenNV.Text) || isEmpty(txtSoDT.Text) || isEmpty(txtNgaySinh.Text) || isEmpty(txtTaiKhoan.Text) || isEmpty(txtMatKhau.Text) || isEmpty(txtChucVu.Text) || isEmpty(txtMucLuong.Text))
             {
                 return -1;
             }
@@ -137,26 +122,30 @@ namespace QLCHTT.GUI.Pages
                     MessageBox.Show("Số điện thoại đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                else if (!ValiDateEmail(txtEmail.Text))
-                {
-                    MessageBox.Show("Email không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
                 else if (txtSoDT.Text.Length != 10)
                     MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 else
                 {
-                                    
-                    if (nhanVienBUS.addNhanVien(txtTenNV.Text,txtGioiTinh.Text, txtNgaySinh.Text, txtSoDT.Text, txtEmail.Text, txtChucVu.Text, txtMucLuong.Text, txtTaiKhoan.Text, txtMatKhau.Text, hinhAnh))
-                    {
-                        MessageBox.Show("Thêm nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        loadDataNV();
+                    DateTime ngaySinh;
+                    decimal mucLuong;
 
+                    if (DateTime.TryParse(txtNgaySinh.Text, out ngaySinh) && decimal.TryParse(txtMucLuong.Text, out mucLuong))
+                    {
+                        if (nhanVienBUS.addNhanVien(txtTenNV.Text, txtGioiTinh.Text,ngaySinh, txtSoDT.Text, txtChucVu.Text, mucLuong, txtTaiKhoan.Text, txtMatKhau.Text, hinhAnh))
+                        {
+                            MessageBox.Show("Thêm nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            loadDataNV();
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("Thêm nhân viên không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
                     }
                     else
                     {
-                        MessageBox.Show("Thêm nhân viên không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Ngày sinh hoặc mức lương không đúng định dạng");
                     }
-                    
                 }
                 
             }
@@ -205,11 +194,6 @@ namespace QLCHTT.GUI.Pages
                     MessageBox.Show("Thông tin không được để trống!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                if (!ValiDateEmail(txtEmail.Text))
-                {
-                    MessageBox.Show("Email không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
                 if (txtSoDT.Text.Length != 10)
                 {
                     MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -221,14 +205,24 @@ namespace QLCHTT.GUI.Pages
                     loadDataNV();
                     return;
                 }
-                if (nhanVienBUS.updateNhanVien(maNhanVienHienTai, txtTenNV.Text, txtGioiTinh.Text, txtNgaySinh.Text, txtSoDT.Text, txtEmail.Text, txtChucVu.Text, txtMucLuong.Text, txtTaiKhoan.Text, txtMatKhau.Text, hinhAnh))
-                {
-                    MessageBox.Show("Sửa nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                DateTime ngaySinh;
+                decimal mucLuong;
 
+                if (DateTime.TryParse(txtNgaySinh.Text, out ngaySinh) && decimal.TryParse(txtMucLuong.Text, out mucLuong))
+                {
+                    if (nhanVienBUS.updateNhanVien(maNhanVienHienTai, txtTenNV.Text, txtGioiTinh.Text, ngaySinh, txtSoDT.Text, txtChucVu.Text, mucLuong, txtTaiKhoan.Text, txtMatKhau.Text, hinhAnh))
+                    {
+                        MessageBox.Show("Sửa nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Sửa nhân viên không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Sửa nhân viên không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Ngày sinh hoặc mức lương không đúng định dạng");
                 }
                 loadDataNV();
                 
@@ -250,8 +244,8 @@ namespace QLCHTT.GUI.Pages
                 else
                 {
                     row.Delete();
-                    int kq = db.updateDatabase(NhanVienDAO.strNhanVien, dtNV);
-                    if (kq > 0)
+                    bool kq = nvDAO.xoaNhanVien(maNhanVienHienTai);
+                    if (kq)
                         MessageBox.Show("Xóa thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     else
                         MessageBox.Show("Xóa không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -268,8 +262,7 @@ namespace QLCHTT.GUI.Pages
         }
         private void loadCBO_ChucVu()
         {
-            string sql = "SELECT DISTINCT ChucVu FROM NhanVien";
-            DataTable dt = db.getDataTable(sql);
+            DataTable dt = nvDAO.getChucVu();
             cboLocNV.DataSource = dt;
             cboLocNV.DisplayMember = "ChucVu";
         }

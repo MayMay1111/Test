@@ -59,8 +59,8 @@ namespace QLCHTT.GUI.Pages
         {
             if (dgvKhachHang.CurrentRow != null)
             {
-                maKhachHangHienTai = dgvKhachHang.CurrentRow.Cells["Column1"].Value.ToString();
-                soDTHienTai = dgvKhachHang.CurrentRow.Cells["Column4"].Value.ToString();
+                maKhachHangHienTai = dgvKhachHang.CurrentRow.Cells[0].Value.ToString();
+                soDTHienTai = dgvKhachHang.CurrentRow.Cells[3].Value.ToString();
             }
         }
         private bool isEmpty(string s)
@@ -143,17 +143,26 @@ namespace QLCHTT.GUI.Pages
                 }
                 else
                 {
-                    if (khachHangBUS.themKH(txtTenKH.Text, txtNgaySinh.Text, txtSDT.Text))
+                    DateTime ngaySinh;
+
+                    if (DateTime.TryParse(txtNgaySinh.Text, out ngaySinh))
                     {
-                        MessageBox.Show("Thêm khách hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        if (khachHangBUS.themKH(txtTenKH.Text, ngaySinh, txtSDT.Text))
+                        {
+                            MessageBox.Show("Thêm khách hàng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Lỗi khi thêm khách hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                        loadData();
                     }
                     else
                     {
-                        MessageBox.Show("Thêm khách hàng không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Ngày sinh không hợp lệ. Vui lòng nhập lại.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
-                    loadData();
                 }
-
+                 
             }
 
         }
@@ -183,7 +192,22 @@ namespace QLCHTT.GUI.Pages
                     }
                     else
                     {
-                        if (khachHangBUS.suaKH(maKhachHangHienTai, txtTenKH.Text, txtNgaySinh.Text, txtSDT.Text, txtDiemTichLuy.Text))
+                        DateTime ngaySinh;
+                        int diemTichLuy;
+
+                        if (!DateTime.TryParse(txtNgaySinh.Text, out ngaySinh))
+                        {
+                            MessageBox.Show("Ngày sinh không hợp lệ. Vui lòng nhập lại.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
+
+                        if (!int.TryParse(txtDiemTichLuy.Text, out diemTichLuy))
+                        {
+                            MessageBox.Show("Điểm tích lũy phải là số nguyên. Vui lòng nhập lại.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
+
+                        if (khachHangBUS.suaKH(maKhachHangHienTai, txtTenKH.Text, ngaySinh, txtSDT.Text, diemTichLuy))
                         {
                             MessageBox.Show("Sửa khách hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
@@ -206,7 +230,7 @@ namespace QLCHTT.GUI.Pages
             edit = MessageBox.Show("Bạn có muốn Ẩn khách hàng này không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (edit == DialogResult.Yes)
             {
-                if (khachHangBUS.xoaKH(maKhachHangHienTai, txtTenKH.Text, txtNgaySinh.Text, txtSDT.Text, txtDiemTichLuy.Text))
+                if (khachHangBUS.xoaKH(maKhachHangHienTai))
                 {
                     MessageBox.Show("Ẩn khách hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }

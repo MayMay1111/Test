@@ -17,8 +17,23 @@ namespace QLCHTT.DAO
         }
         public bool addHoaDon(string maKhachHang, string maNhanVien, string maKhuyenMai, DateTime ngayLapHoaDon, int tongTien, string phuongThucThanhToan, int diemDung)
         {
+            var maxHoaDon = QLCHTT.HoaDons
+            .OrderByDescending(hd => hd.MaHoaDon)
+            .FirstOrDefault();
+
+            string newMaHoaDon;
+            if (maxHoaDon != null)
+            {
+                int lastNumber = int.Parse(maxHoaDon.MaHoaDon.Substring(2));
+                newMaHoaDon = "HD" + (lastNumber + 1).ToString("D8");
+            }
+            else
+            {
+                newMaHoaDon = "HD00000001";
+            }
             var hoaDon = new HoaDon
             {
+                MaHoaDon = newMaHoaDon,
                 MaKhachHang = maKhachHang,
                 MaNhanVien = maNhanVien,
                 MaKhuyenMai = maKhuyenMai,
@@ -45,8 +60,23 @@ namespace QLCHTT.DAO
 
         public bool hoaDonMoi(string maNhanVien, DateTime ngayLap)
         {
+            var maxHoaDon = QLCHTT.HoaDons
+            .OrderByDescending(kh => kh.MaHoaDon)
+            .FirstOrDefault();
+
+            string newMaHoaDon;
+            if (maxHoaDon != null)
+            {
+                int lastNumber = int.Parse(maxHoaDon.MaHoaDon.Substring(2));
+                newMaHoaDon = "HD" + (lastNumber + 1).ToString("D8");
+            }
+            else
+            {
+                newMaHoaDon = "HD00000001";
+            }
             var hoaDon = new HoaDon
             {
+                MaHoaDon = newMaHoaDon,
                 MaNhanVien = maNhanVien,
                 NgayLapHoaDon = ngayLap
             };

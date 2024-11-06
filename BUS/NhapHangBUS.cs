@@ -19,7 +19,7 @@ namespace QLCHTT.BUS
         {
             return nhapHangDAO.getAll();
         }
-        public bool addDonNhapHang(string maNhaCungCap, DateTime ngayDatHang)
+        public bool addDonNhapHang(int maNhaCungCap, DateTime ngayDatHang)
         {
             return nhapHangDAO.addDonNhapHang(maNhaCungCap, ngayDatHang);
         }

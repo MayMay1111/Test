@@ -20,14 +20,14 @@ namespace QLCHTT.BUS
         {
             return nhaCungCapDAO.getAll();
         }
-        public bool addNhaCungCap(string tenNhaCungCap, string nguoiLienHe, string diaChi, string soDienThoai, string email)
+        public bool addNhaCungCap(string tenNhaCungCap, string nguoiLienHe, string diaChi, string soDienThoai)
         {
-            return nhaCungCapDAO.addNhaCungCap(tenNhaCungCap, nguoiLienHe, diaChi, soDienThoai, email);
+            return nhaCungCapDAO.addNhaCungCap(tenNhaCungCap, nguoiLienHe, diaChi, soDienThoai);
         }
 
-        public bool updateNhaCungCap(int maNhaCungCap, string tenNhaCungCap, string nguoiLienHe, string diaChi, string soDienThoai, string email)
+        public bool updateNhaCungCap(int maNhaCungCap, string tenNhaCungCap, string nguoiLienHe, string diaChi, string soDienThoai)
         {
-            return nhaCungCapDAO.updateNhaCungCap(maNhaCungCap, tenNhaCungCap, nguoiLienHe, diaChi, soDienThoai, email);
+            return nhaCungCapDAO.updateNhaCungCap(maNhaCungCap, tenNhaCungCap, nguoiLienHe, diaChi, soDienThoai);
         }
 
         public bool deleteNhaCungCap(int maNhaCungCap)

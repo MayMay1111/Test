@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace QLCHTT.BUS
 {
-    internal class KhachHangBUS
+    public class KhachHangBUS
     {
         public KhachHangDAO khachHangDAO;
         public KhachHangBUS()
@@ -18,24 +18,24 @@ namespace QLCHTT.BUS
         
         public DataTable getAll()
         {
-            return khachHangDAO.AllKhachHang();
+            return khachHangDAO.allKhachHang();
         }
-        public bool themKH(string tenKH, string ngaySinh, string sdt)
+        public bool themKH(string tenKH, DateTime ngaySinh, string sdt)
         {
             return khachHangDAO.themKhachHang(tenKH, ngaySinh, sdt);
         }
-        public bool suaKH(string maKHHT, string tenKH, string ngaySinh, string sdt, string diem)
+        public bool suaKH(string maKHHT, string tenKH, DateTime ngaySinh, string sdt, int diem)
         {
             return khachHangDAO.suaKhachHang(maKHHT, tenKH, ngaySinh, sdt, diem);
         }
-        public bool xoaKH(string maKHHT, string tenKH, string ngaySinh, string sdt, string diem)
+        public bool xoaKH(string maKHHT)
         {
-            return khachHangDAO.xoaKhachHang(maKHHT, tenKH, ngaySinh, sdt, diem);
+            return khachHangDAO.xoaKhachHang(maKHHT);
         }
         public bool hienKH(string maKHHT, string tenKH, string ngaySinh, string sdt, string diem)
         {
-            return khachHangDAO.hienKhachHang(maKHHT, tenKH, ngaySinh, sdt, diem);
-
+            //return khachHangDAO.hienKhachHang(maKHHT, tenKH, ngaySinh, sdt, diem);
+            return true;
         }
         public DataTable search(string str)
         {

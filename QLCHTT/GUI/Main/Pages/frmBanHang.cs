@@ -47,6 +47,7 @@ namespace QLCHTT.GUI.Pages
             loadSanPham();
             loadHoaDon();
             loadChiTietHoaDon();
+            txtDiaChiGiao.Enabled = false;
         }
 
         private void frmBanHang_Load(object sender, EventArgs e)
@@ -424,19 +425,7 @@ namespace QLCHTT.GUI.Pages
         }
         private bool KiemTraGiaoHang()
         {
-            bool coGiaoHang = false;
-            foreach (DataGridViewRow row in dtgGioHang.Rows)
-            {
-                if (!row.IsNewRow)
-                {
-                    DataGridViewCheckBoxCell chkCell = (DataGridViewCheckBoxCell) row.Cells["GiaoHang"];
-                    if (chkCell.Value != null && (bool) chkCell.Value)
-                    {
-                        coGiaoHang = true;
-                        break;
-                    }
-                }
-            }
+            bool coGiaoHang = cbCoGiaoHang.Checked;
 
             if (coGiaoHang && string.IsNullOrWhiteSpace(txtDiaChiGiao.Text))
             {
@@ -468,11 +457,13 @@ namespace QLCHTT.GUI.Pages
                 string maNhanVien = dangNhapBUS.layMaNhanVien(taiKhoan);
                 string maKhachHang = khachHangBUS.layMaKhachHang(soDienThoai);
                 string maKhuyenMai = cbMaKhuyenMai.SelectedValue.ToString();
+
                 DateTime ngayMua = DateTime.Now;
                 int tongTien;
                 int diemTichLuy = 0;
                 string maHoaDon = txtMaHoaDon.Text.Trim();
                 string diemTichLuyText = txtDungDiemTichLuy.Text.Replace("VND", "").Replace(",", "").Trim();
+                bool coGiaoHang = cbCoGiaoHang.Checked;
 
                 if (!string.IsNullOrEmpty(diemTichLuyText))
                 {
@@ -509,7 +500,6 @@ namespace QLCHTT.GUI.Pages
                                 bool kq = hoaDonBUS.updateHoaDon(maHoaDon, maKhachHang, maKhuyenMai, tongTien, phuongThucThanhToan, diemTichLuy);
                                 if (kq)
                                 {
-                                    bool coSanPhamGiaoHang = false;
                                     foreach (DataGridViewRow row in dtgGioHang.Rows)
                                     {
 
@@ -518,12 +508,6 @@ namespace QLCHTT.GUI.Pages
                                         int donGia = Convert.ToInt32(row.Cells["DonGia"].Value);
                                         string ghiChu = "";
                                         int thanhTien = Convert.ToInt32(row.Cells["ThanhTien"].Value);
-                                        DataGridViewCheckBoxCell chkCell = (DataGridViewCheckBoxCell) row.Cells["GiaoHang"];
-                                        if (chkCell.Value != null && (bool) chkCell.Value)
-                                        {
-                                            ghiChu = "Giao hàng";
-                                            coSanPhamGiaoHang = true;
-                                        }
 
                                         bool sanPhamDaTonTai = chiTietHoaDonBUS.kiemTraTrungSanPham(maHoaDon, maSanPham);
 
@@ -546,31 +530,13 @@ namespace QLCHTT.GUI.Pages
                                         clearGioHang();
 
                                     }
-                                    if (coSanPhamGiaoHang)
+                                    if (coGiaoHang)
                                     {
                                         string diaChiGiao = txtDiaChiGiao.Text.Trim();
                                         DateTime ngayGiao = dtpNgayGiaoHang.Value;
 
                                         bool kqTaoGiaoHang = giaoHangBUS.addGiaoHang(maHoaDon, ngayGiao, diaChiGiao);
-                                        if (kqTaoGiaoHang)
-                                        {
-                                            string maGiaoHang = giaoHangBUS.layMaMoiNhat();
-                                            foreach (DataGridViewRow row in dtgGioHang.Rows)
-                                            {
-                                                if (!row.IsNewRow)
-                                                {
-                                                    DataGridViewCheckBoxCell chkCell = (DataGridViewCheckBoxCell) row.Cells["GiaoHang"];
-                                                    if (chkCell.Value != null && (bool) chkCell.Value)
-                                                    {
-                                                        string maSanPham = row.Cells["MaSanPham"].Value.ToString();
-                                                        int soLuong = Convert.ToInt32(row.Cells["SoLuong"].Value);
-                                                        MessageBox.Show("Đã thêm đơn giao hàng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                                        clearGioHang();
-                                                    }
-                                                }
-                                            }
-                                        }
-                                        else
+                                        if (!kqTaoGiaoHang)
                                         {
                                             MessageBox.Show("Có lỗi khi tạo đơn giao hàng.");
                                             return;
@@ -1200,6 +1166,18 @@ namespace QLCHTT.GUI.Pages
         private void dtgDanhSachSanPham_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void cbCoGiaoHang_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbCoGiaoHang.Checked)
+            {
+                txtDiaChiGiao.Enabled = true;
+            }
+            else
+            {
+                txtDiaChiGiao.Enabled = false;
+            }
         }
 
     }

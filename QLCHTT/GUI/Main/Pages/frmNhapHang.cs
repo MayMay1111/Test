@@ -169,19 +169,24 @@ namespace QLCHTT.GUI.Pages
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            string maNhaCungCap = cbNhaCungCap.SelectedValue.ToString();
-            DateTime ngayDatHang = DateTime.Now;
+            int maNhaCungCap;
+            if(int.TryParse(cbNhaCungCap.SelectedValue.ToString(),out maNhaCungCap)){
+                DateTime ngayDatHang = DateTime.Now;
 
-            if (nhapHangBUS.addDonNhapHang(maNhaCungCap, ngayDatHang))
-            {
-                MessageBox.Show("Thêm thành công đơn đặt hàng! Vui lòng thêm chi tiết đơn đặt hàng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (nhapHangBUS.addDonNhapHang(maNhaCungCap, ngayDatHang))
+                {
+                    MessageBox.Show("Thêm thành công đơn đặt hàng! Vui lòng thêm chi tiết đơn đặt hàng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Lỗi khi thêm đơn đặt hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                loadDonNhap();
+                loadMaDatHang();
             }
-            else
-            {
-                MessageBox.Show("Lỗi khi thêm đơn đặt hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else {
+                MessageBox.Show("Lỗi hệ thống", "Thông báo");
             }
-            loadDonNhap();
-            loadMaDatHang();
         }
 
         private void btnThemChiTiet_Click(object sender, EventArgs e)
