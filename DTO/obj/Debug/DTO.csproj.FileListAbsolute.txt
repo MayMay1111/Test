@@ -3,3 +3,9 @@ C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCod
 C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DTO\obj\Debug\DTO.dll
 C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DTO\obj\Debug\DTO.pdb
+D:\udtm_doan\Test\DTO\bin\Debug\DTO.dll
+D:\udtm_doan\Test\DTO\bin\Debug\DTO.pdb
+D:\udtm_doan\Test\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\udtm_doan\Test\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\udtm_doan\Test\DTO\obj\Debug\DTO.dll
+D:\udtm_doan\Test\DTO\obj\Debug\DTO.pdb

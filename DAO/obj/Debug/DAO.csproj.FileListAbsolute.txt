@@ -6,3 +6,13 @@ C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCod
 C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\obj\Debug\DAO.dll
 C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\DAO\obj\Debug\DAO.pdb
+D:\udtm_doan\Test\DAO\bin\Debug\DAO.dll.config
+D:\udtm_doan\Test\DAO\bin\Debug\DAO.dll
+D:\udtm_doan\Test\DAO\bin\Debug\DAO.pdb
+D:\udtm_doan\Test\DAO\bin\Debug\DTO.dll
+D:\udtm_doan\Test\DAO\bin\Debug\DTO.pdb
+D:\udtm_doan\Test\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\udtm_doan\Test\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\udtm_doan\Test\DAO\obj\Debug\DAO.csproj.Up2Date
+D:\udtm_doan\Test\DAO\obj\Debug\DAO.dll
+D:\udtm_doan\Test\DAO\obj\Debug\DAO.pdb

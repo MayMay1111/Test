@@ -7,3 +7,15 @@ C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCod
 C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\BUS\bin\Debug\DTO.pdb
 C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\BUS\obj\Debug\BUS.dll
 C:\Users\kongh\Desktop\sport\QuanLyCuaHangTheThao\QuanLyCuaHangTheThao\SourceCode\BUS\obj\Debug\BUS.pdb
+D:\udtm_doan\Test\BUS\bin\Debug\BUS.dll
+D:\udtm_doan\Test\BUS\bin\Debug\BUS.pdb
+D:\udtm_doan\Test\BUS\bin\Debug\DAO.dll
+D:\udtm_doan\Test\BUS\bin\Debug\DTO.dll
+D:\udtm_doan\Test\BUS\bin\Debug\DAO.pdb
+D:\udtm_doan\Test\BUS\bin\Debug\DAO.dll.config
+D:\udtm_doan\Test\BUS\bin\Debug\DTO.pdb
+D:\udtm_doan\Test\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\udtm_doan\Test\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\udtm_doan\Test\BUS\obj\Debug\BUS.csproj.Up2Date
+D:\udtm_doan\Test\BUS\obj\Debug\BUS.dll
+D:\udtm_doan\Test\BUS\obj\Debug\BUS.pdb
