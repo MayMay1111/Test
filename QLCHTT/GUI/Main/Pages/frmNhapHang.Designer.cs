@@ -772,6 +772,7 @@
             this.ShowTitle = true;
             this.Symbol = 358765;
             this.Text = "Nhập hàng";
+            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(142)))));
             this.Initialize += new System.EventHandler(this.frmNhapHang_Initialize);
             this.Load += new System.EventHandler(this.frmNhapHang_Load);
             this.tableLayoutPanel6.ResumeLayout(false);

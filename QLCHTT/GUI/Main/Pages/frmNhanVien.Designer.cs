@@ -436,9 +436,10 @@
             // 
             this.btnThem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThem.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnThem.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnThem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnThem.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnThem.FillColorGradient = true;
+            this.btnThem.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnThem.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnThem.Location = new System.Drawing.Point(3, 3);
             this.btnThem.MinimumSize = new System.Drawing.Size(1, 1);
@@ -454,9 +455,10 @@
             // 
             this.btnSua.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSua.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSua.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnSua.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSua.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnSua.FillColorGradient = true;
+            this.btnSua.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSua.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnSua.Location = new System.Drawing.Point(488, 3);
             this.btnSua.MinimumSize = new System.Drawing.Size(1, 1);
@@ -472,9 +474,10 @@
             // 
             this.btnRefresh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRefresh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnRefresh.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnRefresh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnRefresh.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnRefresh.FillColorGradient = true;
+            this.btnRefresh.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnRefresh.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnRefresh.Location = new System.Drawing.Point(1458, 3);
             this.btnRefresh.MinimumSize = new System.Drawing.Size(1, 1);
@@ -490,9 +493,10 @@
             // 
             this.btnXoa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoa.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnXoa.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnXoa.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXoa.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnXoa.FillColorGradient = true;
+            this.btnXoa.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXoa.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnXoa.Location = new System.Drawing.Point(973, 3);
             this.btnXoa.MinimumSize = new System.Drawing.Size(1, 1);
@@ -566,9 +570,10 @@
             // 
             this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearch.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSearch.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnSearch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSearch.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnSearch.FillColorGradient = true;
+            this.btnSearch.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSearch.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnSearch.Location = new System.Drawing.Point(779, 3);
             this.btnSearch.MinimumSize = new System.Drawing.Size(1, 1);
@@ -584,9 +589,10 @@
             // 
             this.btnLoc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLoc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLoc.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnLoc.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnLoc.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnLoc.FillColorGradient = true;
+            this.btnLoc.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnLoc.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnLoc.Location = new System.Drawing.Point(1652, 3);
             this.btnLoc.MinimumSize = new System.Drawing.Size(1, 1);
@@ -760,7 +766,7 @@
             this.ShowTitle = true;
             this.Symbol = 261447;
             this.Text = "Quản lý nhân viên";
-            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(204)))));
+            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(142)))));
             this.uiTableLayoutPanel1.ResumeLayout(false);
             this.uiTableLayoutPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.imgNhanVien)).EndInit();

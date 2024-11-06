@@ -983,7 +983,7 @@
             this.Symbol = 61579;
             this.SymbolSize = 30;
             this.Text = "Trả hàng";
-            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(204)))));
+            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(142)))));
             this.Load += new System.EventHandler(this.frmTraHang_Load);
             this.uiGroupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTraHangvaChiTiet)).EndInit();

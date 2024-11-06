@@ -329,5 +329,10 @@ namespace QLCHTT.GUI.Main.Pages
             loadDanhMuc();
             loadSanPham();
         }
+
+        private void uiLabel7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

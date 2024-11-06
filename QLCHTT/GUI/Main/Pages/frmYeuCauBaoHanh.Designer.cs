@@ -42,6 +42,7 @@
             this.btnReloadYCBH = new Sunny.UI.UISymbolButton();
             this.btnSuaYeuCauBH = new Sunny.UI.UISymbolButton();
             this.btnExportYCBH = new Sunny.UI.UISymbolButton();
+            this.btnInDonBaoHanh = new Sunny.UI.UISymbolButton();
             this.uiTableLayoutPanel6 = new Sunny.UI.UITableLayoutPanel();
             this.btnTimDanhMuc = new Sunny.UI.UISymbolButton();
             this.txtTimSanPham = new Sunny.UI.UITextBox();
@@ -61,7 +62,6 @@
             this.uiLabel5 = new Sunny.UI.UILabel();
             this.txtNgayYeuCau = new Sunny.UI.UITextBox();
             this.errorHanBaoHanh = new System.Windows.Forms.ErrorProvider(this.components);
-            this.btnInDonBaoHanh = new Sunny.UI.UISymbolButton();
             this.uiTableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBaoHanh)).BeginInit();
             this.uiTableLayoutPanel5.SuspendLayout();
@@ -185,10 +185,10 @@
             // 
             this.btnThemYeuCauBH.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThemYeuCauBH.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnThemYeuCauBH.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnThemYeuCauBH.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnThemYeuCauBH.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnThemYeuCauBH.FillColorGradient = true;
-            this.btnThemYeuCauBH.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnThemYeuCauBH.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnThemYeuCauBH.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnThemYeuCauBH.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnThemYeuCauBH.Font = new System.Drawing.Font("Arial", 12F);
@@ -210,10 +210,10 @@
             // 
             this.btnXoaYeuCauBH.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoaYeuCauBH.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnXoaYeuCauBH.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnXoaYeuCauBH.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXoaYeuCauBH.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnXoaYeuCauBH.FillColorGradient = true;
-            this.btnXoaYeuCauBH.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnXoaYeuCauBH.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXoaYeuCauBH.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnXoaYeuCauBH.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnXoaYeuCauBH.Font = new System.Drawing.Font("Arial", 12F);
@@ -232,10 +232,10 @@
             // 
             this.btnReloadYCBH.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnReloadYCBH.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReloadYCBH.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnReloadYCBH.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnReloadYCBH.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnReloadYCBH.FillColorGradient = true;
-            this.btnReloadYCBH.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnReloadYCBH.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnReloadYCBH.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnReloadYCBH.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnReloadYCBH.Font = new System.Drawing.Font("Arial", 12F);
@@ -254,10 +254,10 @@
             // 
             this.btnSuaYeuCauBH.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSuaYeuCauBH.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSuaYeuCauBH.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnSuaYeuCauBH.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSuaYeuCauBH.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnSuaYeuCauBH.FillColorGradient = true;
-            this.btnSuaYeuCauBH.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnSuaYeuCauBH.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSuaYeuCauBH.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnSuaYeuCauBH.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnSuaYeuCauBH.Font = new System.Drawing.Font("Arial", 12F);
@@ -294,6 +294,28 @@
             this.btnExportYCBH.TipsFont = new System.Drawing.Font("Arial", 9F);
             this.btnExportYCBH.Click += new System.EventHandler(this.btnExportYCBH_Click);
             // 
+            // btnInDonBaoHanh
+            // 
+            this.btnInDonBaoHanh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInDonBaoHanh.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInDonBaoHanh.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnInDonBaoHanh.FillColor2 = System.Drawing.Color.CornflowerBlue;
+            this.btnInDonBaoHanh.FillColorGradient = true;
+            this.btnInDonBaoHanh.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnInDonBaoHanh.FillPressColor = System.Drawing.Color.CornflowerBlue;
+            this.btnInDonBaoHanh.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
+            this.btnInDonBaoHanh.Font = new System.Drawing.Font("Arial", 12F);
+            this.btnInDonBaoHanh.Location = new System.Drawing.Point(1023, 3);
+            this.btnInDonBaoHanh.MinimumSize = new System.Drawing.Size(1, 1);
+            this.btnInDonBaoHanh.Name = "btnInDonBaoHanh";
+            this.btnInDonBaoHanh.Size = new System.Drawing.Size(202, 53);
+            this.btnInDonBaoHanh.Symbol = 57580;
+            this.btnInDonBaoHanh.SymbolSize = 30;
+            this.btnInDonBaoHanh.TabIndex = 7;
+            this.btnInDonBaoHanh.Text = "In Đơn";
+            this.btnInDonBaoHanh.TipsFont = new System.Drawing.Font("Arial", 9F);
+            this.btnInDonBaoHanh.Click += new System.EventHandler(this.btnInDonBaoHanh_Click);
+            // 
             // uiTableLayoutPanel6
             // 
             this.uiTableLayoutPanel6.ColumnCount = 2;
@@ -314,10 +336,10 @@
             // 
             this.btnTimDanhMuc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTimDanhMuc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnTimDanhMuc.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnTimDanhMuc.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnTimDanhMuc.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnTimDanhMuc.FillColorGradient = true;
-            this.btnTimDanhMuc.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnTimDanhMuc.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnTimDanhMuc.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnTimDanhMuc.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnTimDanhMuc.Font = new System.Drawing.Font("Arial", 12F);
@@ -603,28 +625,6 @@
             // 
             this.errorHanBaoHanh.ContainerControl = this;
             // 
-            // btnInDonBaoHanh
-            // 
-            this.btnInDonBaoHanh.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInDonBaoHanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnInDonBaoHanh.FillColor = System.Drawing.Color.RoyalBlue;
-            this.btnInDonBaoHanh.FillColor2 = System.Drawing.Color.CornflowerBlue;
-            this.btnInDonBaoHanh.FillColorGradient = true;
-            this.btnInDonBaoHanh.FillHoverColor = System.Drawing.Color.RoyalBlue;
-            this.btnInDonBaoHanh.FillPressColor = System.Drawing.Color.CornflowerBlue;
-            this.btnInDonBaoHanh.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
-            this.btnInDonBaoHanh.Font = new System.Drawing.Font("Arial", 12F);
-            this.btnInDonBaoHanh.Location = new System.Drawing.Point(1023, 3);
-            this.btnInDonBaoHanh.MinimumSize = new System.Drawing.Size(1, 1);
-            this.btnInDonBaoHanh.Name = "btnInDonBaoHanh";
-            this.btnInDonBaoHanh.Size = new System.Drawing.Size(202, 53);
-            this.btnInDonBaoHanh.Symbol = 57580;
-            this.btnInDonBaoHanh.SymbolSize = 30;
-            this.btnInDonBaoHanh.TabIndex = 7;
-            this.btnInDonBaoHanh.Text = "In Đơn";
-            this.btnInDonBaoHanh.TipsFont = new System.Drawing.Font("Arial", 9F);
-            this.btnInDonBaoHanh.Click += new System.EventHandler(this.btnInDonBaoHanh_Click);
-            // 
             // frmYeuCauBaoHanh
             // 
             this.AllowShowTitle = true;
@@ -636,7 +636,7 @@
             this.ShowTitle = true;
             this.Symbol = 358740;
             this.Text = "Quản lý bảo hành";
-            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(204)))));
+            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(142)))));
             this.Initialize += new System.EventHandler(this.frmBaoHanh_Initialize);
             this.uiTableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgBaoHanh)).EndInit();

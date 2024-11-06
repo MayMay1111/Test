@@ -153,16 +153,17 @@
             this.dateTimePicker1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dateTimePicker1.Location = new System.Drawing.Point(3, 3);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(457, 35);
+            this.dateTimePicker1.Size = new System.Drawing.Size(457, 30);
             this.dateTimePicker1.TabIndex = 5;
             // 
             // btnXem
             // 
             this.btnXem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXem.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnXem.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnXem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXem.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnXem.FillColorGradient = true;
+            this.btnXem.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXem.Font = new System.Drawing.Font("Arial", 12F);
             this.btnXem.Location = new System.Drawing.Point(466, 3);
             this.btnXem.MinimumSize = new System.Drawing.Size(1, 1);
@@ -238,16 +239,17 @@
             this.dateTimePicker2.Dock = System.Windows.Forms.DockStyle.Top;
             this.dateTimePicker2.Location = new System.Drawing.Point(3, 3);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(457, 35);
+            this.dateTimePicker2.Size = new System.Drawing.Size(457, 30);
             this.dateTimePicker2.TabIndex = 8;
             // 
             // btnDoanhThuTheoNam
             // 
             this.btnDoanhThuTheoNam.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDoanhThuTheoNam.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDoanhThuTheoNam.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnDoanhThuTheoNam.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnDoanhThuTheoNam.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnDoanhThuTheoNam.FillColorGradient = true;
+            this.btnDoanhThuTheoNam.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnDoanhThuTheoNam.Font = new System.Drawing.Font("Arial", 12F);
             this.btnDoanhThuTheoNam.Location = new System.Drawing.Point(466, 3);
             this.btnDoanhThuTheoNam.MinimumSize = new System.Drawing.Size(1, 1);
@@ -324,7 +326,7 @@
             this.Padding = new System.Windows.Forms.Padding(0, 35, 0, 0);
             this.ShowTitle = true;
             this.Text = "Báo cáo doanh thu";
-            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(204)))));
+            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(142)))));
             this.Initialize += new System.EventHandler(this.frmBaoCaoDoanhThu_Initialize);
             this.Load += new System.EventHandler(this.frmBaoCaoDoanhThu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart_DTTNam)).EndInit();

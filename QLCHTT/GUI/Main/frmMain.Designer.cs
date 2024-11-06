@@ -39,7 +39,7 @@
             // 
             // Header
             // 
-            this.Header.BackColor = System.Drawing.Color.Blue;
+            this.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(143)))), ((int)(((byte)(95)))));
             this.Header.Controls.Add(this.lblTenDangNhap);
             this.Header.Controls.Add(this.avaNhanVien);
             this.Header.FillColor = System.Drawing.Color.Transparent;
@@ -104,6 +104,7 @@
             // 
             // lblTenDangNhap
             // 
+            this.lblTenDangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(143)))), ((int)(((byte)(95)))));
             this.lblTenDangNhap.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblTenDangNhap.Font = new System.Drawing.Font("Verdana", 12F);
             this.lblTenDangNhap.ForeColor = System.Drawing.Color.White;

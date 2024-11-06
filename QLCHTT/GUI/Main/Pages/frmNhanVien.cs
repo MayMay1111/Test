@@ -58,7 +58,7 @@ namespace QLCHTT.GUI.Pages
             txtSoDT.DataBindings.Clear();
             txtMucLuong.DataBindings.Clear();
             txtChucVu.DataBindings.Clear();
-            txtTaiKhoan.DataBindings.Clear();
+            txtMatKhau.DataBindings.Clear();
             txtMatKhau.DataBindings.Clear();
             imgNhanVien.DataBindings.Clear(); 
 
@@ -68,7 +68,7 @@ namespace QLCHTT.GUI.Pages
             txtSoDT.DataBindings.Add("Text", dt, "SoDienThoai");
             txtMucLuong.DataBindings.Add("Text", dt, "MucLuong");
             txtChucVu.DataBindings.Add("Text", dt, "ChucVu");
-            txtTaiKhoan.DataBindings.Add("Text", dt, "TaiKhoan");
+            txtMatKhau.DataBindings.Add("Text", dt, "TaiKhoan");
             txtMatKhau.DataBindings.Add("Text", dt, "MatKhau");
 
         }
@@ -77,7 +77,7 @@ namespace QLCHTT.GUI.Pages
             imgNhanVien.Image = null;
 
             txtTenNV.Text = string.Empty;
-            txtTaiKhoan.Text = string.Empty;
+            txtMatKhau.Text = string.Empty;
             txtSoDT.Text = string.Empty;
             txtChucVu.Text = string.Empty;
             txtNgaySinh.Text = string.Empty;
@@ -85,7 +85,7 @@ namespace QLCHTT.GUI.Pages
             txtMatKhau.Text = string.Empty;
             txtGioiTinh.Text = string.Empty;
 
-            txtTaiKhoan.Enabled = true;
+            txtMatKhau.Enabled = true;
             txtMatKhau.Enabled = true;
             
         }
@@ -96,7 +96,7 @@ namespace QLCHTT.GUI.Pages
         }
         private int checkInput()
         {
-            if (isEmpty(txtTenNV.Text) || isEmpty(txtSoDT.Text) || isEmpty(txtNgaySinh.Text) || isEmpty(txtTaiKhoan.Text) || isEmpty(txtMatKhau.Text) || isEmpty(txtChucVu.Text) || isEmpty(txtMucLuong.Text))
+            if (isEmpty(txtTenNV.Text) || isEmpty(txtSoDT.Text) || isEmpty(txtNgaySinh.Text) || isEmpty(txtMatKhau.Text) || isEmpty(txtMatKhau.Text) || isEmpty(txtChucVu.Text) || isEmpty(txtMucLuong.Text))
             {
                 return -1;
             }
@@ -112,7 +112,7 @@ namespace QLCHTT.GUI.Pages
             }
             else
             {
-                if (nvDAO.trungTaiKhoan(txtTaiKhoan.Text))
+                if (nvDAO.trungTaiKhoan(txtMatKhau.Text))
                 {
                     MessageBox.Show("Tài khoản đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -131,7 +131,7 @@ namespace QLCHTT.GUI.Pages
 
                     if (DateTime.TryParse(txtNgaySinh.Text, out ngaySinh) && decimal.TryParse(txtMucLuong.Text, out mucLuong))
                     {
-                        if (nhanVienBUS.addNhanVien(txtTenNV.Text, txtGioiTinh.Text,ngaySinh, txtSoDT.Text, txtChucVu.Text, mucLuong, txtTaiKhoan.Text, txtMatKhau.Text, hinhAnh))
+                        if (nhanVienBUS.addNhanVien(txtTenNV.Text, txtGioiTinh.Text,ngaySinh, txtSoDT.Text, txtChucVu.Text, mucLuong, txtMatKhau.Text, txtMatKhau.Text, hinhAnh))
                         {
                             MessageBox.Show("Thêm nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             loadDataNV();
@@ -153,7 +153,7 @@ namespace QLCHTT.GUI.Pages
         }
         private void dgvNhanVien_SelectionChanged(object sender, EventArgs e)
         {
-            txtTaiKhoan.Enabled = false;
+            txtMatKhau.Enabled = false;
             txtMatKhau.Enabled = false;
             if (dgvNhanVien.CurrentRow != null)
             {
@@ -210,7 +210,7 @@ namespace QLCHTT.GUI.Pages
 
                 if (DateTime.TryParse(txtNgaySinh.Text, out ngaySinh) && decimal.TryParse(txtMucLuong.Text, out mucLuong))
                 {
-                    if (nhanVienBUS.updateNhanVien(maNhanVienHienTai, txtTenNV.Text, txtGioiTinh.Text, ngaySinh, txtSoDT.Text, txtChucVu.Text, mucLuong, txtTaiKhoan.Text, txtMatKhau.Text, hinhAnh))
+                    if (nhanVienBUS.updateNhanVien(maNhanVienHienTai, txtTenNV.Text, txtGioiTinh.Text, ngaySinh, txtSoDT.Text, txtChucVu.Text, mucLuong, txtMatKhau.Text, txtMatKhau.Text, hinhAnh))
                     {
                         MessageBox.Show("Sửa nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

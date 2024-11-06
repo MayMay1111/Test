@@ -182,10 +182,10 @@
             // 
             this.btnThemSanPham.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThemSanPham.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnThemSanPham.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnThemSanPham.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnThemSanPham.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnThemSanPham.FillColorGradient = true;
-            this.btnThemSanPham.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnThemSanPham.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnThemSanPham.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnThemSanPham.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnThemSanPham.Font = new System.Drawing.Font("Arial", 12F);
@@ -207,10 +207,10 @@
             // 
             this.btnXoaSanPham.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoaSanPham.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnXoaSanPham.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnXoaSanPham.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXoaSanPham.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnXoaSanPham.FillColorGradient = true;
-            this.btnXoaSanPham.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnXoaSanPham.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXoaSanPham.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnXoaSanPham.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnXoaSanPham.Font = new System.Drawing.Font("Arial", 12F);
@@ -229,10 +229,10 @@
             // 
             this.btnReloadSanPham.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnReloadSanPham.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReloadSanPham.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnReloadSanPham.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnReloadSanPham.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnReloadSanPham.FillColorGradient = true;
-            this.btnReloadSanPham.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnReloadSanPham.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnReloadSanPham.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnReloadSanPham.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnReloadSanPham.Font = new System.Drawing.Font("Arial", 12F);
@@ -251,10 +251,10 @@
             // 
             this.btnSuaDanhMuc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSuaDanhMuc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSuaDanhMuc.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnSuaDanhMuc.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSuaDanhMuc.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnSuaDanhMuc.FillColorGradient = true;
-            this.btnSuaDanhMuc.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnSuaDanhMuc.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSuaDanhMuc.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnSuaDanhMuc.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnSuaDanhMuc.Font = new System.Drawing.Font("Arial", 12F);
@@ -311,10 +311,10 @@
             // 
             this.btnTimDanhMuc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTimDanhMuc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnTimDanhMuc.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnTimDanhMuc.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnTimDanhMuc.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnTimDanhMuc.FillColorGradient = true;
-            this.btnTimDanhMuc.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnTimDanhMuc.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnTimDanhMuc.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnTimDanhMuc.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnTimDanhMuc.Font = new System.Drawing.Font("Arial", 12F);
@@ -413,7 +413,7 @@
             this.uiLabel3.Name = "uiLabel3";
             this.uiLabel3.Size = new System.Drawing.Size(197, 46);
             this.uiLabel3.TabIndex = 2;
-            this.uiLabel3.Text = "Nhà cung cấp:";
+            this.uiLabel3.Text = "Danh mục:";
             // 
             // uiLabel4
             // 
@@ -447,6 +447,7 @@
             this.uiLabel7.Size = new System.Drawing.Size(154, 46);
             this.uiLabel7.TabIndex = 6;
             this.uiLabel7.Text = "Danh mục:";
+            this.uiLabel7.Click += new System.EventHandler(this.uiLabel7_Click);
             // 
             // uiLabel8
             // 
@@ -618,7 +619,7 @@
             this.ShowTitle = true;
             this.Symbol = 363564;
             this.Text = "Danh sách sản phẩm";
-            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(204)))));
+            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(142)))));
             this.Initialize += new System.EventHandler(this.frmSanPham_Initialize);
             this.uiTableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgSanPham)).EndInit();
@@ -641,7 +642,6 @@
         private Sunny.UI.UILabel uiLabel3;
         private Sunny.UI.UILabel uiLabel4;
         private Sunny.UI.UILabel uiLabel5;
-        private Sunny.UI.UILabel uiLabel7;
         private Sunny.UI.UILabel uiLabel8;
         private Sunny.UI.UILabel uiLabel9;
         private Sunny.UI.UITextBox txtSanPham;
@@ -650,7 +650,6 @@
         private Sunny.UI.UIRichTextBox rtxtMoTa;
         private Sunny.UI.UIComboBox cbBaoHanh;
         private Sunny.UI.UIComboBox cbNhaCungCap;
-        private Sunny.UI.UIComboBox cbDanhMuc;
         private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel5;
         private Sunny.UI.UISymbolButton btnThemSanPham;
         private Sunny.UI.UISymbolButton btnXoaSanPham;
@@ -659,5 +658,7 @@
         private Sunny.UI.UISymbolButton btnExportSanPham;
         private Sunny.UI.UIDataGridView dtgSanPham;
         private System.Windows.Forms.DateTimePicker dtpNgaySanXuat;
+        private Sunny.UI.UILabel uiLabel7;
+        private Sunny.UI.UIComboBox cbDanhMuc;
     }
 }

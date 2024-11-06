@@ -47,6 +47,10 @@
             this.uiLabel8 = new Sunny.UI.UILabel();
             this.cmbtinhtrang = new Sunny.UI.UIComboBox();
             this.uiTableLayoutPanel3 = new Sunny.UI.UITableLayoutPanel();
+            this.txtsanpham = new Sunny.UI.UITextBox();
+            this.uiLabel6 = new Sunny.UI.UILabel();
+            this.uiLabel7 = new Sunny.UI.UILabel();
+            this.txtsoluong = new Sunny.UI.UITextBox();
             this.uiTableLayoutPanel4 = new Sunny.UI.UITableLayoutPanel();
             this.txttim = new Sunny.UI.UITextBox();
             this.btntim = new Sunny.UI.UISymbolButton();
@@ -56,10 +60,6 @@
             this.btnsua = new Sunny.UI.UISymbolButton();
             this.btnhoadon = new Sunny.UI.UISymbolButton();
             this.dgvgiaohang = new Sunny.UI.UIDataGridView();
-            this.uiLabel7 = new Sunny.UI.UILabel();
-            this.txtsoluong = new Sunny.UI.UITextBox();
-            this.txtsanpham = new Sunny.UI.UITextBox();
-            this.uiLabel6 = new Sunny.UI.UILabel();
             this.uiTableLayoutPanel1.SuspendLayout();
             this.uiTableLayoutPanel2.SuspendLayout();
             this.uiTableLayoutPanel3.SuspendLayout();
@@ -313,6 +313,62 @@
             this.uiTableLayoutPanel3.TabIndex = 1;
             this.uiTableLayoutPanel3.TagString = null;
             // 
+            // txtsanpham
+            // 
+            this.txtsanpham.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtsanpham.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtsanpham.Font = new System.Drawing.Font("Arial", 12F);
+            this.txtsanpham.Location = new System.Drawing.Point(237, 5);
+            this.txtsanpham.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtsanpham.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txtsanpham.Name = "txtsanpham";
+            this.txtsanpham.Padding = new System.Windows.Forms.Padding(5);
+            this.txtsanpham.RectColor = System.Drawing.Color.Black;
+            this.txtsanpham.ShowText = false;
+            this.txtsanpham.Size = new System.Drawing.Size(225, 36);
+            this.txtsanpham.TabIndex = 6;
+            this.txtsanpham.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtsanpham.Watermark = "";
+            // 
+            // uiLabel6
+            // 
+            this.uiLabel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.uiLabel6.Font = new System.Drawing.Font("Arial", 12F);
+            this.uiLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel6.Location = new System.Drawing.Point(3, 0);
+            this.uiLabel6.Name = "uiLabel6";
+            this.uiLabel6.Size = new System.Drawing.Size(227, 46);
+            this.uiLabel6.TabIndex = 1;
+            this.uiLabel6.Text = "Tên sản phẩm:";
+            // 
+            // uiLabel7
+            // 
+            this.uiLabel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.uiLabel7.Font = new System.Drawing.Font("Arial", 12F);
+            this.uiLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel7.Location = new System.Drawing.Point(469, 0);
+            this.uiLabel7.Name = "uiLabel7";
+            this.uiLabel7.Size = new System.Drawing.Size(227, 46);
+            this.uiLabel7.TabIndex = 2;
+            this.uiLabel7.Text = "Số lượng:";
+            // 
+            // txtsoluong
+            // 
+            this.txtsoluong.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtsoluong.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtsoluong.Font = new System.Drawing.Font("Arial", 12F);
+            this.txtsoluong.Location = new System.Drawing.Point(703, 5);
+            this.txtsoluong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtsoluong.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txtsoluong.Name = "txtsoluong";
+            this.txtsoluong.Padding = new System.Windows.Forms.Padding(5);
+            this.txtsoluong.RectColor = System.Drawing.Color.Black;
+            this.txtsoluong.ShowText = false;
+            this.txtsoluong.Size = new System.Drawing.Size(226, 36);
+            this.txtsoluong.TabIndex = 7;
+            this.txtsoluong.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtsoluong.Watermark = "";
+            // 
             // uiTableLayoutPanel4
             // 
             this.uiTableLayoutPanel4.ColumnCount = 2;
@@ -350,9 +406,10 @@
             // 
             this.btntim.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btntim.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btntim.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btntim.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btntim.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btntim.FillColorGradient = true;
+            this.btntim.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btntim.Font = new System.Drawing.Font("Arial", 12F);
             this.btntim.Location = new System.Drawing.Point(749, 3);
             this.btntim.MinimumSize = new System.Drawing.Size(1, 1);
@@ -408,9 +465,10 @@
             // 
             this.btnlammoi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlammoi.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnlammoi.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnlammoi.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnlammoi.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnlammoi.FillColorGradient = true;
+            this.btnlammoi.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnlammoi.Font = new System.Drawing.Font("Arial", 12F);
             this.btnlammoi.Location = new System.Drawing.Point(236, 3);
             this.btnlammoi.MinimumSize = new System.Drawing.Size(1, 1);
@@ -427,9 +485,10 @@
             // 
             this.btnsua.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsua.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnsua.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.btnsua.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnsua.FillColor2 = System.Drawing.Color.RoyalBlue;
             this.btnsua.FillColorGradient = true;
+            this.btnsua.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnsua.Font = new System.Drawing.Font("Arial", 12F);
             this.btnsua.Location = new System.Drawing.Point(3, 3);
             this.btnsua.MinimumSize = new System.Drawing.Size(1, 1);
@@ -507,62 +566,6 @@
             this.dgvgiaohang.TabIndex = 4;
             this.dgvgiaohang.SelectionChanged += new System.EventHandler(this.dgvgiaohang_SelectionChanged);
             // 
-            // uiLabel7
-            // 
-            this.uiLabel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiLabel7.Font = new System.Drawing.Font("Arial", 12F);
-            this.uiLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel7.Location = new System.Drawing.Point(469, 0);
-            this.uiLabel7.Name = "uiLabel7";
-            this.uiLabel7.Size = new System.Drawing.Size(227, 46);
-            this.uiLabel7.TabIndex = 2;
-            this.uiLabel7.Text = "Số lượng:";
-            // 
-            // txtsoluong
-            // 
-            this.txtsoluong.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtsoluong.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtsoluong.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtsoluong.Location = new System.Drawing.Point(703, 5);
-            this.txtsoluong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtsoluong.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtsoluong.Name = "txtsoluong";
-            this.txtsoluong.Padding = new System.Windows.Forms.Padding(5);
-            this.txtsoluong.RectColor = System.Drawing.Color.Black;
-            this.txtsoluong.ShowText = false;
-            this.txtsoluong.Size = new System.Drawing.Size(226, 36);
-            this.txtsoluong.TabIndex = 7;
-            this.txtsoluong.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtsoluong.Watermark = "";
-            // 
-            // txtsanpham
-            // 
-            this.txtsanpham.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtsanpham.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtsanpham.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtsanpham.Location = new System.Drawing.Point(237, 5);
-            this.txtsanpham.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtsanpham.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtsanpham.Name = "txtsanpham";
-            this.txtsanpham.Padding = new System.Windows.Forms.Padding(5);
-            this.txtsanpham.RectColor = System.Drawing.Color.Black;
-            this.txtsanpham.ShowText = false;
-            this.txtsanpham.Size = new System.Drawing.Size(225, 36);
-            this.txtsanpham.TabIndex = 6;
-            this.txtsanpham.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtsanpham.Watermark = "";
-            // 
-            // uiLabel6
-            // 
-            this.uiLabel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiLabel6.Font = new System.Drawing.Font("Arial", 12F);
-            this.uiLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel6.Location = new System.Drawing.Point(3, 0);
-            this.uiLabel6.Name = "uiLabel6";
-            this.uiLabel6.Size = new System.Drawing.Size(227, 46);
-            this.uiLabel6.TabIndex = 1;
-            this.uiLabel6.Text = "Tên sản phẩm:";
-            // 
             // frmGiaoHang
             // 
             this.AllowShowTitle = true;
@@ -575,7 +578,7 @@
             this.ShowTitle = true;
             this.Symbol = 61641;
             this.Text = "Quản lý giao hàng";
-            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(204)))));
+            this.TitleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(142)))));
             this.Initialize += new System.EventHandler(this.frmGiaoHang_Initialize);
             this.Load += new System.EventHandler(this.frmGiaoHang_Load);
             this.uiTableLayoutPanel1.ResumeLayout(false);

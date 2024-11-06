@@ -41,6 +41,7 @@
             this.btnReload = new Sunny.UI.UISymbolButton();
             this.btnSua = new Sunny.UI.UISymbolButton();
             this.btnXuatExcel = new Sunny.UI.UISymbolButton();
+            this.btnThongKe = new Sunny.UI.UISymbolButton();
             this.uiTableLayoutPanel6 = new Sunny.UI.UITableLayoutPanel();
             this.btnTimDanhMuc = new Sunny.UI.UISymbolButton();
             this.txtTimSanPham = new Sunny.UI.UITextBox();
@@ -61,7 +62,6 @@
             this.rtxtMieuTa = new Sunny.UI.UIRichTextBox();
             this.dptNgayBatDau = new System.Windows.Forms.DateTimePicker();
             this.dtpNgayKetThuc = new System.Windows.Forms.DateTimePicker();
-            this.btnThongKe = new Sunny.UI.UISymbolButton();
             this.uiTableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgKhuyenMai)).BeginInit();
             this.uiTableLayoutPanel5.SuspendLayout();
@@ -127,7 +127,7 @@
             this.dtgKhuyenMai.EnableHeadersVisualStyles = false;
             this.dtgKhuyenMai.Font = new System.Drawing.Font("Arial", 12F);
             this.dtgKhuyenMai.GridColor = System.Drawing.Color.Black;
-            this.dtgKhuyenMai.Location = new System.Drawing.Point(3, 409);
+            this.dtgKhuyenMai.Location = new System.Drawing.Point(3, 407);
             this.dtgKhuyenMai.MultiSelect = false;
             this.dtgKhuyenMai.Name = "dtgKhuyenMai";
             this.dtgKhuyenMai.ReadOnly = true;
@@ -151,7 +151,7 @@
             this.dtgKhuyenMai.RowTemplate.Height = 28;
             this.dtgKhuyenMai.SelectedIndex = -1;
             this.dtgKhuyenMai.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgKhuyenMai.Size = new System.Drawing.Size(1291, 432);
+            this.dtgKhuyenMai.Size = new System.Drawing.Size(1291, 434);
             this.dtgKhuyenMai.StripeOddColor = System.Drawing.Color.Silver;
             this.dtgKhuyenMai.TabIndex = 20;
             this.dtgKhuyenMai.SelectionChanged += new System.EventHandler(this.dtgKhuyenMai_SelectionChanged);
@@ -172,11 +172,11 @@
             this.uiTableLayoutPanel5.Controls.Add(this.btnXuatExcel, 4, 0);
             this.uiTableLayoutPanel5.Controls.Add(this.btnThongKe, 5, 0);
             this.uiTableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiTableLayoutPanel5.Location = new System.Drawing.Point(3, 355);
+            this.uiTableLayoutPanel5.Location = new System.Drawing.Point(3, 354);
             this.uiTableLayoutPanel5.Name = "uiTableLayoutPanel5";
             this.uiTableLayoutPanel5.RowCount = 1;
             this.uiTableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.uiTableLayoutPanel5.Size = new System.Drawing.Size(1291, 48);
+            this.uiTableLayoutPanel5.Size = new System.Drawing.Size(1291, 47);
             this.uiTableLayoutPanel5.TabIndex = 19;
             this.uiTableLayoutPanel5.TagString = null;
             // 
@@ -184,17 +184,17 @@
             // 
             this.btnThem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThem.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnThem.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnThem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnThem.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnThem.FillColorGradient = true;
-            this.btnThem.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnThem.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnThem.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnThem.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnThem.Font = new System.Drawing.Font("Arial", 12F);
             this.btnThem.Location = new System.Drawing.Point(3, 3);
             this.btnThem.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(209, 42);
+            this.btnThem.Size = new System.Drawing.Size(209, 41);
             this.btnThem.Symbol = 61525;
             this.btnThem.SymbolSize = 30;
             this.btnThem.TabIndex = 1;
@@ -209,17 +209,17 @@
             // 
             this.btnXoa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoa.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnXoa.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnXoa.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXoa.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnXoa.FillColorGradient = true;
-            this.btnXoa.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnXoa.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnXoa.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnXoa.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnXoa.Font = new System.Drawing.Font("Arial", 12F);
             this.btnXoa.Location = new System.Drawing.Point(218, 3);
             this.btnXoa.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(209, 42);
+            this.btnXoa.Size = new System.Drawing.Size(209, 41);
             this.btnXoa.Symbol = 559506;
             this.btnXoa.SymbolSize = 30;
             this.btnXoa.TabIndex = 2;
@@ -231,17 +231,17 @@
             // 
             this.btnReload.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnReload.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReload.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnReload.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnReload.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnReload.FillColorGradient = true;
-            this.btnReload.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnReload.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnReload.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnReload.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnReload.Font = new System.Drawing.Font("Arial", 12F);
             this.btnReload.Location = new System.Drawing.Point(648, 3);
             this.btnReload.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(209, 42);
+            this.btnReload.Size = new System.Drawing.Size(209, 41);
             this.btnReload.Symbol = 61473;
             this.btnReload.SymbolSize = 30;
             this.btnReload.TabIndex = 5;
@@ -253,17 +253,17 @@
             // 
             this.btnSua.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSua.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSua.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnSua.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSua.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnSua.FillColorGradient = true;
-            this.btnSua.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnSua.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnSua.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnSua.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnSua.Font = new System.Drawing.Font("Arial", 12F);
             this.btnSua.Location = new System.Drawing.Point(433, 3);
             this.btnSua.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(209, 42);
+            this.btnSua.Size = new System.Drawing.Size(209, 41);
             this.btnSua.Symbol = 557940;
             this.btnSua.SymbolSize = 30;
             this.btnSua.TabIndex = 3;
@@ -285,13 +285,35 @@
             this.btnXuatExcel.Location = new System.Drawing.Point(863, 3);
             this.btnXuatExcel.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnXuatExcel.Name = "btnXuatExcel";
-            this.btnXuatExcel.Size = new System.Drawing.Size(209, 42);
+            this.btnXuatExcel.Size = new System.Drawing.Size(209, 41);
             this.btnXuatExcel.Symbol = 362830;
             this.btnXuatExcel.SymbolSize = 30;
             this.btnXuatExcel.TabIndex = 4;
             this.btnXuatExcel.Text = "Xuất Excel";
             this.btnXuatExcel.TipsFont = new System.Drawing.Font("Arial", 9F);
             this.btnXuatExcel.Click += new System.EventHandler(this.btnXuatExcel_Click);
+            // 
+            // btnThongKe
+            // 
+            this.btnThongKe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThongKe.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnThongKe.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnThongKe.FillColor2 = System.Drawing.Color.CornflowerBlue;
+            this.btnThongKe.FillColorGradient = true;
+            this.btnThongKe.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnThongKe.FillPressColor = System.Drawing.Color.CornflowerBlue;
+            this.btnThongKe.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
+            this.btnThongKe.Font = new System.Drawing.Font("Arial", 12F);
+            this.btnThongKe.Location = new System.Drawing.Point(1078, 3);
+            this.btnThongKe.MinimumSize = new System.Drawing.Size(1, 1);
+            this.btnThongKe.Name = "btnThongKe";
+            this.btnThongKe.Size = new System.Drawing.Size(210, 41);
+            this.btnThongKe.Symbol = 61568;
+            this.btnThongKe.SymbolSize = 35;
+            this.btnThongKe.TabIndex = 6;
+            this.btnThongKe.Text = "Thống kê";
+            this.btnThongKe.TipsFont = new System.Drawing.Font("Arial", 9F);
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // uiTableLayoutPanel6
             // 
@@ -305,7 +327,7 @@
             this.uiTableLayoutPanel6.Name = "uiTableLayoutPanel6";
             this.uiTableLayoutPanel6.RowCount = 1;
             this.uiTableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.uiTableLayoutPanel6.Size = new System.Drawing.Size(1291, 53);
+            this.uiTableLayoutPanel6.Size = new System.Drawing.Size(1291, 52);
             this.uiTableLayoutPanel6.TabIndex = 17;
             this.uiTableLayoutPanel6.TagString = null;
             // 
@@ -313,10 +335,10 @@
             // 
             this.btnTimDanhMuc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTimDanhMuc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnTimDanhMuc.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnTimDanhMuc.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnTimDanhMuc.FillColor2 = System.Drawing.Color.CornflowerBlue;
             this.btnTimDanhMuc.FillColorGradient = true;
-            this.btnTimDanhMuc.FillHoverColor = System.Drawing.Color.RoyalBlue;
+            this.btnTimDanhMuc.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(207)))), ((int)(((byte)(157)))));
             this.btnTimDanhMuc.FillPressColor = System.Drawing.Color.CornflowerBlue;
             this.btnTimDanhMuc.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
             this.btnTimDanhMuc.Font = new System.Drawing.Font("Arial", 12F);
@@ -324,7 +346,7 @@
             this.btnTimDanhMuc.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnTimDanhMuc.Name = "btnTimDanhMuc";
             this.btnTimDanhMuc.Radius = 1;
-            this.btnTimDanhMuc.Size = new System.Drawing.Size(200, 47);
+            this.btnTimDanhMuc.Size = new System.Drawing.Size(200, 46);
             this.btnTimDanhMuc.Symbol = 61442;
             this.btnTimDanhMuc.SymbolSize = 30;
             this.btnTimDanhMuc.TabIndex = 1;
@@ -343,7 +365,7 @@
             this.txtTimSanPham.Padding = new System.Windows.Forms.Padding(5);
             this.txtTimSanPham.RectColor = System.Drawing.Color.Black;
             this.txtTimSanPham.ShowText = false;
-            this.txtTimSanPham.Size = new System.Drawing.Size(1077, 43);
+            this.txtTimSanPham.Size = new System.Drawing.Size(1077, 42);
             this.txtTimSanPham.TabIndex = 0;
             this.txtTimSanPham.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.txtTimSanPham.Watermark = "";
@@ -435,7 +457,7 @@
             this.uiLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiLabel6.Location = new System.Drawing.Point(630, 5);
             this.uiLabel6.Name = "uiLabel6";
-            this.uiLabel6.Size = new System.Drawing.Size(171, 56);
+            this.uiLabel6.Size = new System.Drawing.Size(170, 56);
             this.uiLabel6.TabIndex = 5;
             this.uiLabel6.Text = "Tên chương trình:";
             // 
@@ -446,7 +468,7 @@
             this.uiLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiLabel7.Location = new System.Drawing.Point(630, 61);
             this.uiLabel7.Name = "uiLabel7";
-            this.uiLabel7.Size = new System.Drawing.Size(171, 56);
+            this.uiLabel7.Size = new System.Drawing.Size(170, 56);
             this.uiLabel7.TabIndex = 6;
             this.uiLabel7.Text = "Áp dụng đơn hàng tối thiểu:";
             // 
@@ -457,7 +479,7 @@
             this.uiLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiLabel8.Location = new System.Drawing.Point(630, 117);
             this.uiLabel8.Name = "uiLabel8";
-            this.uiLabel8.Size = new System.Drawing.Size(171, 46);
+            this.uiLabel8.Size = new System.Drawing.Size(170, 46);
             this.uiLabel8.TabIndex = 7;
             this.uiLabel8.Text = "Ngày kết thúc:";
             // 
@@ -468,7 +490,7 @@
             this.uiLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiLabel9.Location = new System.Drawing.Point(630, 166);
             this.uiLabel9.Name = "uiLabel9";
-            this.uiLabel9.Size = new System.Drawing.Size(171, 40);
+            this.uiLabel9.Size = new System.Drawing.Size(170, 40);
             this.uiLabel9.TabIndex = 8;
             this.uiLabel9.Text = "Mô tả:";
             // 
@@ -493,13 +515,13 @@
             this.txtTenKhuyenMai.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTenKhuyenMai.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtTenKhuyenMai.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtTenKhuyenMai.Location = new System.Drawing.Point(808, 10);
+            this.txtTenKhuyenMai.Location = new System.Drawing.Point(807, 10);
             this.txtTenKhuyenMai.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTenKhuyenMai.MinimumSize = new System.Drawing.Size(1, 16);
             this.txtTenKhuyenMai.Name = "txtTenKhuyenMai";
             this.txtTenKhuyenMai.Padding = new System.Windows.Forms.Padding(5);
             this.txtTenKhuyenMai.ShowText = false;
-            this.txtTenKhuyenMai.Size = new System.Drawing.Size(479, 36);
+            this.txtTenKhuyenMai.Size = new System.Drawing.Size(480, 36);
             this.txtTenKhuyenMai.TabIndex = 10;
             this.txtTenKhuyenMai.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.txtTenKhuyenMai.Watermark = "";
@@ -525,13 +547,13 @@
             this.txtDonHangToiThieu.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDonHangToiThieu.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtDonHangToiThieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtDonHangToiThieu.Location = new System.Drawing.Point(808, 66);
+            this.txtDonHangToiThieu.Location = new System.Drawing.Point(807, 66);
             this.txtDonHangToiThieu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDonHangToiThieu.MinimumSize = new System.Drawing.Size(1, 16);
             this.txtDonHangToiThieu.Name = "txtDonHangToiThieu";
             this.txtDonHangToiThieu.Padding = new System.Windows.Forms.Padding(5);
             this.txtDonHangToiThieu.ShowText = false;
-            this.txtDonHangToiThieu.Size = new System.Drawing.Size(479, 36);
+            this.txtDonHangToiThieu.Size = new System.Drawing.Size(480, 36);
             this.txtDonHangToiThieu.TabIndex = 12;
             this.txtDonHangToiThieu.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.txtDonHangToiThieu.Watermark = "";
@@ -557,14 +579,14 @@
             this.rtxtMieuTa.Dock = System.Windows.Forms.DockStyle.Top;
             this.rtxtMieuTa.FillColor = System.Drawing.Color.White;
             this.rtxtMieuTa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.rtxtMieuTa.Location = new System.Drawing.Point(808, 171);
+            this.rtxtMieuTa.Location = new System.Drawing.Point(807, 171);
             this.rtxtMieuTa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rtxtMieuTa.MinimumSize = new System.Drawing.Size(1, 1);
             this.rtxtMieuTa.Name = "rtxtMieuTa";
             this.rtxtMieuTa.Padding = new System.Windows.Forms.Padding(2);
             this.rtxtMieuTa.ScrollBarStyleInherited = false;
             this.rtxtMieuTa.ShowText = false;
-            this.rtxtMieuTa.Size = new System.Drawing.Size(479, 111);
+            this.rtxtMieuTa.Size = new System.Drawing.Size(480, 111);
             this.rtxtMieuTa.TabIndex = 14;
             this.rtxtMieuTa.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -574,39 +596,17 @@
             this.dptNgayBatDau.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dptNgayBatDau.Location = new System.Drawing.Point(191, 120);
             this.dptNgayBatDau.Name = "dptNgayBatDau";
-            this.dptNgayBatDau.Size = new System.Drawing.Size(433, 35);
+            this.dptNgayBatDau.Size = new System.Drawing.Size(433, 30);
             this.dptNgayBatDau.TabIndex = 15;
             // 
             // dtpNgayKetThuc
             // 
             this.dtpNgayKetThuc.Dock = System.Windows.Forms.DockStyle.Top;
             this.dtpNgayKetThuc.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNgayKetThuc.Location = new System.Drawing.Point(807, 120);
+            this.dtpNgayKetThuc.Location = new System.Drawing.Point(806, 120);
             this.dtpNgayKetThuc.Name = "dtpNgayKetThuc";
-            this.dtpNgayKetThuc.Size = new System.Drawing.Size(481, 35);
+            this.dtpNgayKetThuc.Size = new System.Drawing.Size(482, 30);
             this.dtpNgayKetThuc.TabIndex = 16;
-            // 
-            // btnThongKe
-            // 
-            this.btnThongKe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnThongKe.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnThongKe.FillColor = System.Drawing.Color.RoyalBlue;
-            this.btnThongKe.FillColor2 = System.Drawing.Color.CornflowerBlue;
-            this.btnThongKe.FillColorGradient = true;
-            this.btnThongKe.FillHoverColor = System.Drawing.Color.RoyalBlue;
-            this.btnThongKe.FillPressColor = System.Drawing.Color.CornflowerBlue;
-            this.btnThongKe.FillSelectedColor = System.Drawing.Color.CornflowerBlue;
-            this.btnThongKe.Font = new System.Drawing.Font("Arial", 12F);
-            this.btnThongKe.Location = new System.Drawing.Point(1078, 3);
-            this.btnThongKe.MinimumSize = new System.Drawing.Size(1, 1);
-            this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(210, 42);
-            this.btnThongKe.Symbol = 61568;
-            this.btnThongKe.SymbolSize = 35;
-            this.btnThongKe.TabIndex = 6;
-            this.btnThongKe.Text = "Thống kê";
-            this.btnThongKe.TipsFont = new System.Drawing.Font("Arial", 9F);
-            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // frmKhuyenMai
             // 

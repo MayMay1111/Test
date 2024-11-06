@@ -416,7 +416,7 @@ namespace QLCHTT.GUI.Pages
         private void btnReloadNhaCungCap_Click(object sender, EventArgs e)
         {
             LoadDataNhaCungCap();
-            txtTenNhaCungCap.Text = txtNguoiLienHe.Text = txtDiaChi.Text = txtSoDienThoai.Text = txtEmail.Text = "";
+            txtTenNhaCungCap.Text = txtNguoiLienHe.Text = txtDiaChi.Text = txtSoDienThoai.Text = "";
         }
 
         private void btnSuaDanhMuc_Click(object sender, EventArgs e)
