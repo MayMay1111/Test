@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAO</RootNamespace>
     <AssemblyName>DAO</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -69,7 +69,6 @@
     </Compile>
     <Compile Include="SanPhamDAO.cs" />
     <Compile Include="TonKhoDAO.cs" />
-    <Compile Include="TraHangDAO.cs" />
     <Compile Include="Utils\ToDataTable.cs" />
     <Compile Include="YeuCauBaoHanhDAO.cs" />
   </ItemGroup>

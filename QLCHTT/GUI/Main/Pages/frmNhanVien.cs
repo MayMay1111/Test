@@ -8,6 +8,8 @@ using System.Drawing;
 using System.IO;
 using System.Net.Mail;
 using System.Windows.Forms;
+using System.Collections.Generic;
+
 namespace QLCHTT.GUI.Pages
 {
     public partial class frmNhanVien : UIPage
@@ -50,6 +52,8 @@ namespace QLCHTT.GUI.Pages
             dataBinding(dtNV);
         }
 
+
+
         private void dataBinding(DataTable dt)
         {
             txtTenNV.DataBindings.Clear();
@@ -57,7 +61,7 @@ namespace QLCHTT.GUI.Pages
             txtGioiTinh.DataBindings.Clear();
             txtSoDT.DataBindings.Clear();
             txtMucLuong.DataBindings.Clear();
-            txtChucVu.DataBindings.Clear();
+            cboChucVu.DataBindings.Clear();
             txtMatKhau.DataBindings.Clear();
             txtMatKhau.DataBindings.Clear();
             imgNhanVien.DataBindings.Clear(); 
@@ -67,11 +71,11 @@ namespace QLCHTT.GUI.Pages
             txtGioiTinh.DataBindings.Add("Text", dt, "GioiTinh");
             txtSoDT.DataBindings.Add("Text", dt, "SoDienThoai");
             txtMucLuong.DataBindings.Add("Text", dt, "MucLuong");
-            txtChucVu.DataBindings.Add("Text", dt, "ChucVu");
-            txtMatKhau.DataBindings.Add("Text", dt, "TaiKhoan");
+            cboChucVu.DataBindings.Add("SelectedItem", dt, "ChucVu");
+            txtTaiKhoan.DataBindings.Add("Text", dt, "TaiKhoan");
             txtMatKhau.DataBindings.Add("Text", dt, "MatKhau");
-
         }
+
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             imgNhanVien.Image = null;
@@ -79,7 +83,7 @@ namespace QLCHTT.GUI.Pages
             txtTenNV.Text = string.Empty;
             txtMatKhau.Text = string.Empty;
             txtSoDT.Text = string.Empty;
-            txtChucVu.Text = string.Empty;
+            cboChucVu.Text = string.Empty;
             txtNgaySinh.Text = string.Empty;
             txtMucLuong.Text = string.Empty;
             txtMatKhau.Text = string.Empty;
@@ -96,7 +100,7 @@ namespace QLCHTT.GUI.Pages
         }
         private int checkInput()
         {
-            if (isEmpty(txtTenNV.Text) || isEmpty(txtSoDT.Text) || isEmpty(txtNgaySinh.Text) || isEmpty(txtMatKhau.Text) || isEmpty(txtMatKhau.Text) || isEmpty(txtChucVu.Text) || isEmpty(txtMucLuong.Text))
+            if (isEmpty(txtTenNV.Text) || isEmpty(txtSoDT.Text) || isEmpty(txtNgaySinh.Text) || isEmpty(txtMatKhau.Text) || isEmpty(txtMatKhau.Text) || isEmpty(cboChucVu.SelectedValue.ToString()) || isEmpty(txtMucLuong.Text))
             {
                 return -1;
             }
@@ -131,7 +135,7 @@ namespace QLCHTT.GUI.Pages
 
                     if (DateTime.TryParse(txtNgaySinh.Text, out ngaySinh) && decimal.TryParse(txtMucLuong.Text, out mucLuong))
                     {
-                        if (nhanVienBUS.addNhanVien(txtTenNV.Text, txtGioiTinh.Text,ngaySinh, txtSoDT.Text, txtChucVu.Text, mucLuong, txtMatKhau.Text, txtMatKhau.Text, hinhAnh))
+                        if (nhanVienBUS.addNhanVien(txtTenNV.Text, txtGioiTinh.Text, ngaySinh, txtSoDT.Text, cboChucVu.SelectedValue.ToString(), mucLuong, txtMatKhau.Text, txtMatKhau.Text, hinhAnh))
                         {
                             MessageBox.Show("Thêm nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             loadDataNV();
@@ -210,7 +214,7 @@ namespace QLCHTT.GUI.Pages
 
                 if (DateTime.TryParse(txtNgaySinh.Text, out ngaySinh) && decimal.TryParse(txtMucLuong.Text, out mucLuong))
                 {
-                    if (nhanVienBUS.updateNhanVien(maNhanVienHienTai, txtTenNV.Text, txtGioiTinh.Text, ngaySinh, txtSoDT.Text, txtChucVu.Text, mucLuong, txtMatKhau.Text, txtMatKhau.Text, hinhAnh))
+                    if (nhanVienBUS.updateNhanVien(maNhanVienHienTai, txtTenNV.Text, txtGioiTinh.Text, ngaySinh, txtSoDT.Text, cboChucVu.SelectedValue.ToString(), mucLuong, txtMatKhau.Text, txtMatKhau.Text, hinhAnh))
                     {
                         MessageBox.Show("Sửa nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -262,9 +266,17 @@ namespace QLCHTT.GUI.Pages
         }
         private void loadCBO_ChucVu()
         {
-            DataTable dt = nvDAO.getChucVu();
-            cboLocNV.DataSource = dt;
-            cboLocNV.DisplayMember = "ChucVu";
+            List<string> ChucVu = new List<string>
+            {
+                "Nhân viên bán hàng",
+                "Nhân viên quản lý hàng hóa",
+                "Nhân viên bảo hành",
+                "Nhân viên marketing",
+                "Nhân viên thống kê",
+                "Quản lý"
+            };
+            cboLocNV.DataSource = ChucVu;
+            cboChucVu.DataSource = ChucVu;
         }
 
         private void btnLoc_Click(object sender, EventArgs e)

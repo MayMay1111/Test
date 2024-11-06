@@ -38,14 +38,18 @@
             this.txtSoDT = new Sunny.UI.UITextBox();
             this.uiLabel3 = new Sunny.UI.UILabel();
             this.txtTenNV = new Sunny.UI.UITextBox();
-            this.txtChucVu = new Sunny.UI.UITextBox();
             this.uiTableLayoutPanel1 = new Sunny.UI.UITableLayoutPanel();
             this.uiTableLayoutPanel2 = new Sunny.UI.UITableLayoutPanel();
+            this.txtTaiKhoan = new Sunny.UI.UITextBox();
+            this.txtGioiTinh = new Sunny.UI.UITextBox();
+            this.txtMatKhau = new Sunny.UI.UITextBox();
             this.uiLabel9 = new Sunny.UI.UILabel();
             this.uiLabel8 = new Sunny.UI.UILabel();
             this.uiLabel4 = new Sunny.UI.UILabel();
             this.txtMucLuong = new Sunny.UI.UITextBox();
             this.uiLabel10 = new Sunny.UI.UILabel();
+            this.uiLabel5 = new Sunny.UI.UILabel();
+            this.uiLabel6 = new Sunny.UI.UILabel();
             this.imgNhanVien = new Sunny.UI.UIImageButton();
             this.uiTableLayoutPanel3 = new Sunny.UI.UITableLayoutPanel();
             this.btnThem = new Sunny.UI.UISymbolButton();
@@ -68,11 +72,7 @@
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MatKhau = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtMatKhau = new Sunny.UI.UITextBox();
-            this.uiLabel5 = new Sunny.UI.UILabel();
-            this.uiLabel6 = new Sunny.UI.UILabel();
-            this.txtGioiTinh = new Sunny.UI.UITextBox();
-            this.txtTaiKhoan = new Sunny.UI.UITextBox();
+            this.cboChucVu = new System.Windows.Forms.ComboBox();
             this.uiTableLayoutPanel1.SuspendLayout();
             this.uiTableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgNhanVien)).BeginInit();
@@ -157,23 +157,6 @@
             this.txtTenNV.Watermark = "";
             this.txtTenNV.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenNV_KeyPress);
             // 
-            // txtChucVu
-            // 
-            this.txtChucVu.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtChucVu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtChucVu.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtChucVu.Location = new System.Drawing.Point(768, 79);
-            this.txtChucVu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtChucVu.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtChucVu.Name = "txtChucVu";
-            this.txtChucVu.Padding = new System.Windows.Forms.Padding(5);
-            this.txtChucVu.RectColor = System.Drawing.Color.Black;
-            this.txtChucVu.ShowText = false;
-            this.txtChucVu.Size = new System.Drawing.Size(376, 34);
-            this.txtChucVu.TabIndex = 36;
-            this.txtChucVu.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtChucVu.Watermark = "";
-            // 
             // uiTableLayoutPanel1
             // 
             this.uiTableLayoutPanel1.ColumnCount = 2;
@@ -205,7 +188,6 @@
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel4, 2, 3);
             this.uiTableLayoutPanel2.Controls.Add(this.txtMucLuong, 3, 2);
             this.uiTableLayoutPanel2.Controls.Add(this.txtNgaySinh, 3, 0);
-            this.uiTableLayoutPanel2.Controls.Add(this.txtChucVu, 3, 1);
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel10, 2, 0);
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel2, 0, 0);
             this.uiTableLayoutPanel2.Controls.Add(this.txtTenNV, 1, 0);
@@ -213,6 +195,7 @@
             this.uiTableLayoutPanel2.Controls.Add(this.txtSoDT, 1, 1);
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel5, 0, 2);
             this.uiTableLayoutPanel2.Controls.Add(this.uiLabel6, 0, 3);
+            this.uiTableLayoutPanel2.Controls.Add(this.cboChucVu, 3, 1);
             this.uiTableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.uiTableLayoutPanel2.Location = new System.Drawing.Point(235, 3);
             this.uiTableLayoutPanel2.Name = "uiTableLayoutPanel2";
@@ -226,6 +209,57 @@
             this.uiTableLayoutPanel2.TabIndex = 0;
             this.uiTableLayoutPanel2.TagString = null;
             this.uiTableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.uiTableLayoutPanel2_Paint);
+            // 
+            // txtTaiKhoan
+            // 
+            this.txtTaiKhoan.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTaiKhoan.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtTaiKhoan.Font = new System.Drawing.Font("Arial", 12F);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(195, 227);
+            this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTaiKhoan.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txtTaiKhoan.Name = "txtTaiKhoan";
+            this.txtTaiKhoan.Padding = new System.Windows.Forms.Padding(5);
+            this.txtTaiKhoan.RectColor = System.Drawing.Color.Black;
+            this.txtTaiKhoan.ShowText = false;
+            this.txtTaiKhoan.Size = new System.Drawing.Size(374, 34);
+            this.txtTaiKhoan.TabIndex = 57;
+            this.txtTaiKhoan.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtTaiKhoan.Watermark = "";
+            // 
+            // txtGioiTinh
+            // 
+            this.txtGioiTinh.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtGioiTinh.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtGioiTinh.Font = new System.Drawing.Font("Arial", 12F);
+            this.txtGioiTinh.Location = new System.Drawing.Point(195, 153);
+            this.txtGioiTinh.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtGioiTinh.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txtGioiTinh.Name = "txtGioiTinh";
+            this.txtGioiTinh.Padding = new System.Windows.Forms.Padding(5);
+            this.txtGioiTinh.RectColor = System.Drawing.Color.Black;
+            this.txtGioiTinh.ShowText = false;
+            this.txtGioiTinh.Size = new System.Drawing.Size(374, 34);
+            this.txtGioiTinh.TabIndex = 56;
+            this.txtGioiTinh.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtGioiTinh.Watermark = "";
+            // 
+            // txtMatKhau
+            // 
+            this.txtMatKhau.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtMatKhau.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtMatKhau.Font = new System.Drawing.Font("Arial", 12F);
+            this.txtMatKhau.Location = new System.Drawing.Point(768, 227);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtMatKhau.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.Padding = new System.Windows.Forms.Padding(5);
+            this.txtMatKhau.RectColor = System.Drawing.Color.Black;
+            this.txtMatKhau.ShowText = false;
+            this.txtMatKhau.Size = new System.Drawing.Size(376, 34);
+            this.txtMatKhau.TabIndex = 55;
+            this.txtMatKhau.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtMatKhau.Watermark = "";
             // 
             // uiLabel9
             // 
@@ -287,6 +321,29 @@
             this.uiLabel10.Size = new System.Drawing.Size(185, 39);
             this.uiLabel10.TabIndex = 44;
             this.uiLabel10.Text = "Ngày sinh:";
+            // 
+            // uiLabel5
+            // 
+            this.uiLabel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.uiLabel5.Font = new System.Drawing.Font("Arial", 12F);
+            this.uiLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel5.Location = new System.Drawing.Point(3, 148);
+            this.uiLabel5.Name = "uiLabel5";
+            this.uiLabel5.Size = new System.Drawing.Size(185, 34);
+            this.uiLabel5.TabIndex = 30;
+            this.uiLabel5.Text = "Giới tính:";
+            this.uiLabel5.Click += new System.EventHandler(this.uiLabel5_Click);
+            // 
+            // uiLabel6
+            // 
+            this.uiLabel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.uiLabel6.Font = new System.Drawing.Font("Arial", 12F);
+            this.uiLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel6.Location = new System.Drawing.Point(3, 222);
+            this.uiLabel6.Name = "uiLabel6";
+            this.uiLabel6.Size = new System.Drawing.Size(185, 34);
+            this.uiLabel6.TabIndex = 47;
+            this.uiLabel6.Text = "Tài khoản";
             // 
             // imgNhanVien
             // 
@@ -640,79 +697,13 @@
             this.MatKhau.Name = "MatKhau";
             this.MatKhau.ReadOnly = true;
             // 
-            // txtMatKhau
+            // cboChucVu
             // 
-            this.txtMatKhau.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtMatKhau.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtMatKhau.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtMatKhau.Location = new System.Drawing.Point(768, 227);
-            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtMatKhau.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Padding = new System.Windows.Forms.Padding(5);
-            this.txtMatKhau.RectColor = System.Drawing.Color.Black;
-            this.txtMatKhau.ShowText = false;
-            this.txtMatKhau.Size = new System.Drawing.Size(376, 34);
-            this.txtMatKhau.TabIndex = 55;
-            this.txtMatKhau.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtMatKhau.Watermark = "";
-            // 
-            // uiLabel5
-            // 
-            this.uiLabel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiLabel5.Font = new System.Drawing.Font("Arial", 12F);
-            this.uiLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel5.Location = new System.Drawing.Point(3, 148);
-            this.uiLabel5.Name = "uiLabel5";
-            this.uiLabel5.Size = new System.Drawing.Size(185, 34);
-            this.uiLabel5.TabIndex = 30;
-            this.uiLabel5.Text = "Giới tính:";
-            this.uiLabel5.Click += new System.EventHandler(this.uiLabel5_Click);
-            // 
-            // uiLabel6
-            // 
-            this.uiLabel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiLabel6.Font = new System.Drawing.Font("Arial", 12F);
-            this.uiLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel6.Location = new System.Drawing.Point(3, 222);
-            this.uiLabel6.Name = "uiLabel6";
-            this.uiLabel6.Size = new System.Drawing.Size(185, 34);
-            this.uiLabel6.TabIndex = 47;
-            this.uiLabel6.Text = "Tài khoản";
-            // 
-            // txtGioiTinh
-            // 
-            this.txtGioiTinh.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtGioiTinh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtGioiTinh.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtGioiTinh.Location = new System.Drawing.Point(195, 153);
-            this.txtGioiTinh.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtGioiTinh.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtGioiTinh.Name = "txtGioiTinh";
-            this.txtGioiTinh.Padding = new System.Windows.Forms.Padding(5);
-            this.txtGioiTinh.RectColor = System.Drawing.Color.Black;
-            this.txtGioiTinh.ShowText = false;
-            this.txtGioiTinh.Size = new System.Drawing.Size(374, 34);
-            this.txtGioiTinh.TabIndex = 56;
-            this.txtGioiTinh.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtGioiTinh.Watermark = "";
-            // 
-            // txtTaiKhoan
-            // 
-            this.txtTaiKhoan.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtTaiKhoan.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtTaiKhoan.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtTaiKhoan.Location = new System.Drawing.Point(195, 227);
-            this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtTaiKhoan.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtTaiKhoan.Name = "txtTaiKhoan";
-            this.txtTaiKhoan.Padding = new System.Windows.Forms.Padding(5);
-            this.txtTaiKhoan.RectColor = System.Drawing.Color.Black;
-            this.txtTaiKhoan.ShowText = false;
-            this.txtTaiKhoan.Size = new System.Drawing.Size(374, 34);
-            this.txtTaiKhoan.TabIndex = 57;
-            this.txtTaiKhoan.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtTaiKhoan.Watermark = "";
+            this.cboChucVu.FormattingEnabled = true;
+            this.cboChucVu.Location = new System.Drawing.Point(767, 77);
+            this.cboChucVu.Name = "cboChucVu";
+            this.cboChucVu.Size = new System.Drawing.Size(378, 33);
+            this.cboChucVu.TabIndex = 58;
             // 
             // frmNhanVien
             // 
@@ -750,7 +741,6 @@
         private Sunny.UI.UITextBox txtSoDT;
         private Sunny.UI.UILabel uiLabel3;
         private Sunny.UI.UITextBox txtTenNV;
-        private Sunny.UI.UITextBox txtChucVu;
         private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel1;
         private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel2;
         private Sunny.UI.UIImageButton imgNhanVien;
@@ -785,5 +775,6 @@
         private Sunny.UI.UITextBox txtGioiTinh;
         private Sunny.UI.UILabel uiLabel5;
         private Sunny.UI.UILabel uiLabel6;
+        private System.Windows.Forms.ComboBox cboChucVu;
     }
 }

@@ -406,12 +406,6 @@
     <Compile Include="GUI\Main\Pages\frmTonKho.designer.cs">
       <DependentUpon>frmTonKho.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Main\Pages\frmTraHang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Main\Pages\frmTraHang.designer.cs">
-      <DependentUpon>frmTraHang.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\Main\Pages\frmYeuCauBaoHanh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -507,9 +501,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Main\Pages\frmTonKho.resx">
       <DependentUpon>frmTonKho.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Main\Pages\frmTraHang.resx">
-      <DependentUpon>frmTraHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Main\Pages\frmYeuCauBaoHanh.resx">
       <DependentUpon>frmYeuCauBaoHanh.cs</DependentUpon>

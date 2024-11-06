@@ -87,7 +87,6 @@
       <Association Name="HoaDon_YeuCauBaoHanh" Member="YeuCauBaoHanhs" ThisKey="MaHoaDon" OtherKey="MaHoaDon" Type="YeuCauBaoHanh" />
       <Association Name="HoaDon_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="MaHoaDon" OtherKey="MaHoaDon" Type="ChiTietHoaDon" />
       <Association Name="HoaDon_GiaoHang" Member="GiaoHangs" ThisKey="MaHoaDon" OtherKey="MaHoaDon" Type="GiaoHang" />
-      <Association Name="HoaDon_TraHang" Member="TraHangs" ThisKey="MaHoaDon" OtherKey="MaHoaDon" Type="TraHang" />
       <Association Name="KhachHang_HoaDon" Member="KhachHang" ThisKey="MaKhachHang" OtherKey="MaKhachHang" Type="KhachHang" IsForeignKey="true" DeleteRule="CASCADE" />
       <Association Name="KhuyenMai_HoaDon" Member="KhuyenMai" ThisKey="MaKhuyenMai" OtherKey="MaKhuyenMai" Type="KhuyenMai" IsForeignKey="true" DeleteRule="CASCADE" />
       <Association Name="NhanVien_HoaDon" Member="NhanVien" ThisKey="MaNhanVien" OtherKey="MaNhanVien" Type="NhanVien" IsForeignKey="true" DeleteRule="CASCADE" />
@@ -158,15 +157,6 @@
       <Association Name="SanPham_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="ChiTietHoaDon" />
       <Association Name="BaoHanh_SanPham" Member="BaoHanh" ThisKey="MaBaoHanh" OtherKey="MaBaoHanh" Type="BaoHanh" IsForeignKey="true" DeleteRule="CASCADE" />
       <Association Name="DanhMuc_SanPham" Member="DanhMuc" ThisKey="MaDanhMuc" OtherKey="MaDanhMuc" Type="DanhMuc" IsForeignKey="true" DeleteRule="CASCADE" />
-    </Type>
-  </Table>
-  <Table Name="dbo.TraHang" Member="TraHangs">
-    <Type Name="TraHang">
-      <Column Name="MaTraHang" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="MaHoaDon" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
-      <Column Name="NgayTra" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="TongTien" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
-      <Association Name="HoaDon_TraHang" Member="HoaDon" ThisKey="MaHoaDon" OtherKey="MaHoaDon" Type="HoaDon" IsForeignKey="true" DeleteRule="CASCADE" />
     </Type>
   </Table>
 </Database>

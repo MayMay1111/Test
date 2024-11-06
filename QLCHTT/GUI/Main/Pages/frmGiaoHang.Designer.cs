@@ -46,11 +46,6 @@
             this.dtpngaygiao = new System.Windows.Forms.DateTimePicker();
             this.uiLabel8 = new Sunny.UI.UILabel();
             this.cmbtinhtrang = new Sunny.UI.UIComboBox();
-            this.uiTableLayoutPanel3 = new Sunny.UI.UITableLayoutPanel();
-            this.txtsanpham = new Sunny.UI.UITextBox();
-            this.uiLabel6 = new Sunny.UI.UILabel();
-            this.uiLabel7 = new Sunny.UI.UILabel();
-            this.txtsoluong = new Sunny.UI.UITextBox();
             this.uiTableLayoutPanel4 = new Sunny.UI.UITableLayoutPanel();
             this.txttim = new Sunny.UI.UITextBox();
             this.btntim = new Sunny.UI.UISymbolButton();
@@ -62,7 +57,6 @@
             this.dgvgiaohang = new Sunny.UI.UIDataGridView();
             this.uiTableLayoutPanel1.SuspendLayout();
             this.uiTableLayoutPanel2.SuspendLayout();
-            this.uiTableLayoutPanel3.SuspendLayout();
             this.uiTableLayoutPanel4.SuspendLayout();
             this.uiTableLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvgiaohang)).BeginInit();
@@ -73,7 +67,6 @@
             this.uiTableLayoutPanel1.ColumnCount = 1;
             this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.uiTableLayoutPanel1.Controls.Add(this.uiTableLayoutPanel2, 0, 0);
-            this.uiTableLayoutPanel1.Controls.Add(this.uiTableLayoutPanel3, 0, 1);
             this.uiTableLayoutPanel1.Controls.Add(this.uiTableLayoutPanel4, 0, 2);
             this.uiTableLayoutPanel1.Controls.Add(this.uiTableLayoutPanel5, 0, 3);
             this.uiTableLayoutPanel1.Controls.Add(this.dgvgiaohang, 0, 4);
@@ -82,10 +75,10 @@
             this.uiTableLayoutPanel1.Name = "uiTableLayoutPanel1";
             this.uiTableLayoutPanel1.RowCount = 5;
             this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.80952F));
-            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.8F));
-            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.8F));
-            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.04F));
-            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.36F));
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.355932F));
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.288136F));
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.305085F));
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 59.83051F));
             this.uiTableLayoutPanel1.Size = new System.Drawing.Size(939, 590);
             this.uiTableLayoutPanel1.TabIndex = 0;
             this.uiTableLayoutPanel1.TagString = null;
@@ -116,7 +109,7 @@
             this.uiTableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.uiTableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.uiTableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.uiTableLayoutPanel2.Size = new System.Drawing.Size(933, 134);
+            this.uiTableLayoutPanel2.Size = new System.Drawing.Size(933, 133);
             this.uiTableLayoutPanel2.TabIndex = 0;
             this.uiTableLayoutPanel2.TagString = null;
             // 
@@ -149,7 +142,7 @@
             this.uiLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiLabel3.Location = new System.Drawing.Point(3, 88);
             this.uiLabel3.Name = "uiLabel3";
-            this.uiLabel3.Size = new System.Drawing.Size(227, 46);
+            this.uiLabel3.Size = new System.Drawing.Size(227, 45);
             this.uiLabel3.TabIndex = 2;
             this.uiLabel3.Text = "Địa chỉ:";
             // 
@@ -245,7 +238,7 @@
             this.txtdiachi.RectColor = System.Drawing.Color.Black;
             this.txtdiachi.ScrollBarStyleInherited = false;
             this.txtdiachi.ShowText = false;
-            this.txtdiachi.Size = new System.Drawing.Size(225, 36);
+            this.txtdiachi.Size = new System.Drawing.Size(225, 35);
             this.txtdiachi.TabIndex = 9;
             this.txtdiachi.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -265,7 +258,7 @@
             this.uiLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiLabel8.Location = new System.Drawing.Point(469, 88);
             this.uiLabel8.Name = "uiLabel8";
-            this.uiLabel8.Size = new System.Drawing.Size(227, 46);
+            this.uiLabel8.Size = new System.Drawing.Size(227, 45);
             this.uiLabel8.TabIndex = 11;
             this.uiLabel8.Text = "Tình trạng đơn hàng:";
             // 
@@ -287,87 +280,11 @@
             this.cmbtinhtrang.Name = "cmbtinhtrang";
             this.cmbtinhtrang.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
             this.cmbtinhtrang.RectColor = System.Drawing.Color.Black;
-            this.cmbtinhtrang.Size = new System.Drawing.Size(226, 36);
+            this.cmbtinhtrang.Size = new System.Drawing.Size(226, 35);
             this.cmbtinhtrang.SymbolSize = 24;
             this.cmbtinhtrang.TabIndex = 12;
             this.cmbtinhtrang.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.cmbtinhtrang.Watermark = "";
-            // 
-            // uiTableLayoutPanel3
-            // 
-            this.uiTableLayoutPanel3.ColumnCount = 4;
-            this.uiTableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.uiTableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.uiTableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.uiTableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.uiTableLayoutPanel3.Controls.Add(this.txtsanpham, 0, 0);
-            this.uiTableLayoutPanel3.Controls.Add(this.uiLabel6, 0, 0);
-            this.uiTableLayoutPanel3.Controls.Add(this.uiLabel7, 2, 0);
-            this.uiTableLayoutPanel3.Controls.Add(this.txtsoluong, 3, 0);
-            this.uiTableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uiTableLayoutPanel3.Location = new System.Drawing.Point(3, 143);
-            this.uiTableLayoutPanel3.Name = "uiTableLayoutPanel3";
-            this.uiTableLayoutPanel3.RowCount = 1;
-            this.uiTableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.uiTableLayoutPanel3.Size = new System.Drawing.Size(933, 46);
-            this.uiTableLayoutPanel3.TabIndex = 1;
-            this.uiTableLayoutPanel3.TagString = null;
-            // 
-            // txtsanpham
-            // 
-            this.txtsanpham.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtsanpham.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtsanpham.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtsanpham.Location = new System.Drawing.Point(237, 5);
-            this.txtsanpham.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtsanpham.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtsanpham.Name = "txtsanpham";
-            this.txtsanpham.Padding = new System.Windows.Forms.Padding(5);
-            this.txtsanpham.RectColor = System.Drawing.Color.Black;
-            this.txtsanpham.ShowText = false;
-            this.txtsanpham.Size = new System.Drawing.Size(225, 36);
-            this.txtsanpham.TabIndex = 6;
-            this.txtsanpham.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtsanpham.Watermark = "";
-            // 
-            // uiLabel6
-            // 
-            this.uiLabel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiLabel6.Font = new System.Drawing.Font("Arial", 12F);
-            this.uiLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel6.Location = new System.Drawing.Point(3, 0);
-            this.uiLabel6.Name = "uiLabel6";
-            this.uiLabel6.Size = new System.Drawing.Size(227, 46);
-            this.uiLabel6.TabIndex = 1;
-            this.uiLabel6.Text = "Tên sản phẩm:";
-            // 
-            // uiLabel7
-            // 
-            this.uiLabel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiLabel7.Font = new System.Drawing.Font("Arial", 12F);
-            this.uiLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel7.Location = new System.Drawing.Point(469, 0);
-            this.uiLabel7.Name = "uiLabel7";
-            this.uiLabel7.Size = new System.Drawing.Size(227, 46);
-            this.uiLabel7.TabIndex = 2;
-            this.uiLabel7.Text = "Số lượng:";
-            // 
-            // txtsoluong
-            // 
-            this.txtsoluong.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtsoluong.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtsoluong.Font = new System.Drawing.Font("Arial", 12F);
-            this.txtsoluong.Location = new System.Drawing.Point(703, 5);
-            this.txtsoluong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtsoluong.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtsoluong.Name = "txtsoluong";
-            this.txtsoluong.Padding = new System.Windows.Forms.Padding(5);
-            this.txtsoluong.RectColor = System.Drawing.Color.Black;
-            this.txtsoluong.ShowText = false;
-            this.txtsoluong.Size = new System.Drawing.Size(226, 36);
-            this.txtsoluong.TabIndex = 7;
-            this.txtsoluong.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtsoluong.Watermark = "";
             // 
             // uiTableLayoutPanel4
             // 
@@ -377,11 +294,11 @@
             this.uiTableLayoutPanel4.Controls.Add(this.txttim, 0, 0);
             this.uiTableLayoutPanel4.Controls.Add(this.btntim, 1, 0);
             this.uiTableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uiTableLayoutPanel4.Location = new System.Drawing.Point(3, 195);
+            this.uiTableLayoutPanel4.Location = new System.Drawing.Point(3, 149);
             this.uiTableLayoutPanel4.Name = "uiTableLayoutPanel4";
             this.uiTableLayoutPanel4.RowCount = 1;
             this.uiTableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.uiTableLayoutPanel4.Size = new System.Drawing.Size(933, 46);
+            this.uiTableLayoutPanel4.Size = new System.Drawing.Size(933, 36);
             this.uiTableLayoutPanel4.TabIndex = 2;
             this.uiTableLayoutPanel4.TagString = null;
             // 
@@ -397,7 +314,7 @@
             this.txttim.Padding = new System.Windows.Forms.Padding(5);
             this.txttim.RectColor = System.Drawing.Color.Black;
             this.txttim.ShowText = false;
-            this.txttim.Size = new System.Drawing.Size(738, 36);
+            this.txttim.Size = new System.Drawing.Size(738, 26);
             this.txttim.TabIndex = 6;
             this.txttim.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.txttim.Watermark = "";
@@ -414,7 +331,7 @@
             this.btntim.Location = new System.Drawing.Point(749, 3);
             this.btntim.MinimumSize = new System.Drawing.Size(1, 1);
             this.btntim.Name = "btntim";
-            this.btntim.Size = new System.Drawing.Size(181, 40);
+            this.btntim.Size = new System.Drawing.Size(181, 30);
             this.btntim.Symbol = 61442;
             this.btntim.SymbolSize = 30;
             this.btntim.TabIndex = 7;
@@ -434,11 +351,11 @@
             this.uiTableLayoutPanel5.Controls.Add(this.btnsua, 0, 0);
             this.uiTableLayoutPanel5.Controls.Add(this.btnhoadon, 3, 0);
             this.uiTableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uiTableLayoutPanel5.Location = new System.Drawing.Point(3, 247);
+            this.uiTableLayoutPanel5.Location = new System.Drawing.Point(3, 191);
             this.uiTableLayoutPanel5.Name = "uiTableLayoutPanel5";
             this.uiTableLayoutPanel5.RowCount = 1;
             this.uiTableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.uiTableLayoutPanel5.Size = new System.Drawing.Size(933, 35);
+            this.uiTableLayoutPanel5.Size = new System.Drawing.Size(933, 42);
             this.uiTableLayoutPanel5.TabIndex = 3;
             this.uiTableLayoutPanel5.TagString = null;
             // 
@@ -542,7 +459,7 @@
             this.dgvgiaohang.EnableHeadersVisualStyles = false;
             this.dgvgiaohang.Font = new System.Drawing.Font("Arial", 12F);
             this.dgvgiaohang.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
-            this.dgvgiaohang.Location = new System.Drawing.Point(3, 288);
+            this.dgvgiaohang.Location = new System.Drawing.Point(3, 239);
             this.dgvgiaohang.Name = "dgvgiaohang";
             this.dgvgiaohang.ReadOnly = true;
             this.dgvgiaohang.RectColor = System.Drawing.Color.Black;
@@ -561,7 +478,7 @@
             this.dgvgiaohang.RowTemplate.Height = 24;
             this.dgvgiaohang.SelectedIndex = -1;
             this.dgvgiaohang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvgiaohang.Size = new System.Drawing.Size(933, 299);
+            this.dgvgiaohang.Size = new System.Drawing.Size(933, 348);
             this.dgvgiaohang.StripeOddColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
             this.dgvgiaohang.TabIndex = 4;
             this.dgvgiaohang.SelectionChanged += new System.EventHandler(this.dgvgiaohang_SelectionChanged);
@@ -583,7 +500,6 @@
             this.Load += new System.EventHandler(this.frmGiaoHang_Load);
             this.uiTableLayoutPanel1.ResumeLayout(false);
             this.uiTableLayoutPanel2.ResumeLayout(false);
-            this.uiTableLayoutPanel3.ResumeLayout(false);
             this.uiTableLayoutPanel4.ResumeLayout(false);
             this.uiTableLayoutPanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvgiaohang)).EndInit();
@@ -595,7 +511,6 @@
 
         private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel1;
         private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel2;
-        private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel3;
         private Sunny.UI.UILabel uiLabel1;
         private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel4;
         private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel5;
@@ -617,9 +532,5 @@
         private Sunny.UI.UILabel uiLabel8;
         private Sunny.UI.UIComboBox cmbtinhtrang;
         private Sunny.UI.UISymbolButton btnhoadon;
-        private Sunny.UI.UITextBox txtsanpham;
-        private Sunny.UI.UILabel uiLabel6;
-        private Sunny.UI.UILabel uiLabel7;
-        private Sunny.UI.UITextBox txtsoluong;
     }
 }

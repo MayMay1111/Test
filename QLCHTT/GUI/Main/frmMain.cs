@@ -76,11 +76,10 @@ namespace QLCHTT
                 Aside.CreateChildNode(root, AddPage(new frmNhapHang(), ++pageIndex));
                 Aside.NodeMouseClick += Aside_NodeMouseClick;
             }
-            if (chucVu == "Nhân viên bảo hành và đổi trả")
+            if (chucVu == "Nhân viên bảo hành")
             {
                 int pageIndex = 1000;
                 TreeNode root = Aside.CreateNode("QUẢN LÝ GIAO DỊCH", 61451, 24, pageIndex);
-                Aside.CreateChildNode(root, AddPage(new frmTraHang(), ++pageIndex));
                 Aside.CreateChildNode(root, AddPage(new frmYeuCauBaoHanh(), ++pageIndex));
                 Aside.NodeMouseClick += Aside_NodeMouseClick;
             }
@@ -112,7 +111,6 @@ namespace QLCHTT
                 root = Aside.CreateNode("QUẢN LÝ GIAO DỊCH", 61451, 24, pageIndex);
                 Aside.CreateChildNode(root, AddPage(new frmBanHang(), ++pageIndex));
                 Aside.CreateChildNode(root, AddPage(new frmNhapHang(), ++pageIndex));
-                Aside.CreateChildNode(root, AddPage(new frmTraHang(), ++pageIndex));
                 Aside.CreateChildNode(root, AddPage(new frmYeuCauBaoHanh(), ++pageIndex));
 
                 pageIndex = 4000;

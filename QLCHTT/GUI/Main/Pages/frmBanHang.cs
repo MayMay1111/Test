@@ -47,7 +47,6 @@ namespace QLCHTT.GUI.Pages
             loadSanPham();
             loadHoaDon();
             loadChiTietHoaDon();
-            txtDiaChiGiao.Enabled = false;
         }
 
         private void frmBanHang_Load(object sender, EventArgs e)
@@ -120,9 +119,11 @@ namespace QLCHTT.GUI.Pages
 
                 lblDiemTichLuy.Enabled = lblHoTenKH.Enabled = lblMaKhuyenMai.Enabled = lblSDT.Enabled = lblDiaChi.Enabled = lblNgayGiaoHang.Enabled = false;
 
-                txtDungDiemTichLuy.Enabled = txtGiamGia.Enabled =
+                txtDungDiemTichLuy.Enabled = txtGiamGia.Enabled = txtDiaChiGiao.Enabled =
                   cbMaKhuyenMai.Enabled = txtPhiGiao.Enabled =
                   txtSoDienThoai.Enabled = txtTongTien.Enabled = dtpNgayGiaoHang.Enabled = false;
+
+                cbCoGiaoHang.Enabled = false;
 
                 intSoLuongThem.Enabled = false;
                 cbPhuongThucThanhToan.Enabled = false;
@@ -136,6 +137,8 @@ namespace QLCHTT.GUI.Pages
                btnTimKhachHang.Enabled = btnDungDiemTichLuy.Enabled = btnThanhToan.Enabled = true;
 
                 lblDiemTichLuy.Enabled = lblHoTenKH.Enabled = lblMaKhuyenMai.Enabled = lblSDT.Enabled = lblDiaChi.Enabled = lblNgayGiaoHang.Enabled = true;
+
+                cbCoGiaoHang.Enabled = true;
 
                 txtDungDiemTichLuy.Enabled = txtGiamGia.Enabled =
                   cbMaKhuyenMai.Enabled = txtPhiGiao.Enabled =
@@ -275,6 +278,8 @@ namespace QLCHTT.GUI.Pages
             lapHoaDonMoi();
 
             intSoLuongThem.Enabled = true;
+
+            cbCoGiaoHang.Enabled = true;
 
             txtMaHoaDon.Text = hoaDonBUS.layMaMoiNhat();
         }
@@ -440,9 +445,9 @@ namespace QLCHTT.GUI.Pages
         bool daInTemp = false;
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
+
             if (string.IsNullOrEmpty(txtHoTenKhachHang.Text))
             {
-
                 MessageBox.Show("Chưa có thông tin khách hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
@@ -499,15 +504,16 @@ namespace QLCHTT.GUI.Pages
                             {
                                 bool kq = hoaDonBUS.updateHoaDon(maHoaDon, maKhachHang, maKhuyenMai, tongTien, phuongThucThanhToan, diemTichLuy);
                                 if (kq)
-                                {
-                                    foreach (DataGridViewRow row in dtgGioHang.Rows)
+                                {   
+                                    DataGridViewRowCollection row = dtgGioHang.Rows;
+                                    for (int i = 0; i < dtgGioHang.Rows.Count; i++)
                                     {
 
-                                        string maSanPham = row.Cells["MaSanPham"].Value.ToString();
-                                        int soLuong = Convert.ToInt32(row.Cells["SoLuong"].Value);
-                                        int donGia = Convert.ToInt32(row.Cells["DonGia"].Value);
+                                        string maSanPham = row[i].Cells["MaSanPham"].Value.ToString();
+                                        int soLuong = Convert.ToInt32(row[i].Cells["SoLuong"].Value);
+                                        int donGia = Convert.ToInt32(row[i].Cells["DonGia"].Value);
                                         string ghiChu = "";
-                                        int thanhTien = Convert.ToInt32(row.Cells["ThanhTien"].Value);
+                                        int thanhTien = Convert.ToInt32(row[i].Cells["ThanhTien"].Value);
 
                                         bool sanPhamDaTonTai = chiTietHoaDonBUS.kiemTraTrungSanPham(maHoaDon, maSanPham);
 
@@ -526,9 +532,6 @@ namespace QLCHTT.GUI.Pages
                                             MessageBox.Show("Có lỗi khi thêm chi tiết phiếu mua.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                                             return;
                                         }
-                                        MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                        clearGioHang();
-
                                     }
                                     if (coGiaoHang)
                                     {
@@ -542,14 +545,15 @@ namespace QLCHTT.GUI.Pages
                                             return;
                                         }
                                     }
-                                    
+                                    MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    clearGioHang();
                                 }
                                 else
                                 {
                                     MessageBox.Show("Có lỗi khi tạo phiếu mua.");
                                 }
                             }
-                            inHoaDonBanHang(maHoaDon);
+                            //inHoaDonBanHang(maHoaDon);
                         }
                     }
                 }

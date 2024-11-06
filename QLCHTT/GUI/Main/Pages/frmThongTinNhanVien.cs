@@ -41,7 +41,6 @@ namespace QLCHTT.GUI.Main.Pages
                 txtEmail.Text = row["Email"].ToString();
                 txtChucVu.Text = row["ChucVu"].ToString();
                 txtMucLuong.Text = row["MucLuong"].ToString();
-                txtTaiKhoan.Text = row["TaiKhoan"].ToString();
                 mkCu = row["MatKhau"].ToString();
                 if (row["HinhAnh"] != DBNull.Value)
                 {

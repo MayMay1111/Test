@@ -161,8 +161,6 @@ namespace QLCHTT.GUI.Main.Pages
         private void btnlammoi_Click(object sender, EventArgs e)
         {
             LoadDataDanhMuc();
-            txtmagiaohang.Text = txtdiachi.Text = txtsanpham.Text = txtsoluong.Text = txttim.Text = "";
-            cmbmahd.Text = cmbnvgiao.Text = "";
         }
 
         private void btnxuat_Click(object sender, EventArgs e)
